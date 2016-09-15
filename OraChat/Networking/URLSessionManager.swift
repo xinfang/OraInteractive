@@ -26,7 +26,7 @@ class URLSessionManager {
     }
 
     func setAuthTokenWithRequest(request: NSMutableURLRequest) {
-        if let authToken = User.currentUser?.token as? String where !authToken.isEmpty {
+        if let authToken = User.currentUser?.token  where !authToken.isEmpty {
             request.setValue(authToken, forHTTPHeaderField: "Authorization")
         }
     }

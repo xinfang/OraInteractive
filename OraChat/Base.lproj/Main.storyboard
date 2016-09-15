@@ -83,10 +83,16 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="KyD-gl-JjS"/>
                     <navigationItem key="navigationItem" title="Account" id="gd6-ly-xeC"/>
+                    <connections>
+                        <outlet property="fieldEmail" destination="P2U-ak-CsQ" id="olb-p7-IA2"/>
+                        <outlet property="fieldName" destination="BvT-ms-CHK" id="gQL-mX-eJg"/>
+                        <outlet property="fieldPassword" destination="ARP-AE-fkn" id="RbH-X3-Zea"/>
+                        <outlet property="filedConfirm" destination="74H-8P-fxf" id="4oB-az-saj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1aT-N0-SKU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="815.5" y="703.5"/>
+            <point key="canvasLocation" x="846" y="758"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="lO1-IG-UVo">
@@ -180,7 +186,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Dv-PU-WLV">
-                                                    <rect key="frame" x="0.0" y="24" width="365" height="23"/>
+                                                    <rect key="frame" x="0.0" y="24" width="365" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <color key="textColor" red="0.96078431372549022" green="0.65098039215686276" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>

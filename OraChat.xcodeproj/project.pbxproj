@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B91731B94652FCBBC6966EA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C4CCAA20FF10795F77AA14 /* Pods.framework */; };
+		A21602491D8B456200805F82 /* ORAUserAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = A21602481D8B456200805F82 /* ORAUserAuthentication.m */; };
 		A2A2F8DC1D88490000CF527E /* MessageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F8DB1D88490000CF527E /* MessageOperation.swift */; };
 		A2A2F8DE1D886B6C00CF527E /* MessageListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F8DD1D886B6C00CF527E /* MessageListOperation.swift */; };
 		A2A2F8E01D886D6600CF527E /* ChatOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F8DF1D886D6600CF527E /* ChatOperation.swift */; };
@@ -109,6 +110,8 @@
 		02F3A20B832D789153D67308 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4364FD1C78FFAFC10935AD9F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9C787911F45B57E4F6AB8AFB /* Pods_OraChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OraChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21602471D8B456200805F82 /* ORAUserAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORAUserAuthentication.h; path = Delegate/ORAUserAuthentication.h; sourceTree = "<group>"; };
+		A21602481D8B456200805F82 /* ORAUserAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORAUserAuthentication.m; path = Delegate/ORAUserAuthentication.m; sourceTree = "<group>"; };
 		A2A2F8DB1D88490000CF527E /* MessageOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageOperation.swift; path = "App Operations/MessageOperation.swift"; sourceTree = "<group>"; };
 		A2A2F8DD1D886B6C00CF527E /* MessageListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageListOperation.swift; path = "App Operations/MessageListOperation.swift"; sourceTree = "<group>"; };
 		A2A2F8DF1D886D6600CF527E /* ChatOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatOperation.swift; path = "App Operations/ChatOperation.swift"; sourceTree = "<group>"; };
@@ -259,6 +262,15 @@
 				4364FD1C78FFAFC10935AD9F /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21602361D8B433E00805F82 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A21602471D8B456200805F82 /* ORAUserAuthentication.h */,
+				A21602481D8B456200805F82 /* ORAUserAuthentication.m */,
+			);
+			name = Delegate;
 			sourceTree = "<group>";
 		};
 		A2A2F8E51D88935F00CF527E /* ViewController */ = {
@@ -422,6 +434,7 @@
 				A2B7FB4A1D86F27F00E9B36E /* App Operations */,
 				A2B7FCEA1D87A45300E9B36E /* Networking */,
 				A2C6641D1D83A07000095A3F /* Utilities */,
+				A21602361D8B433E00805F82 /* Delegate */,
 				A2C6641C1D83A04000095A3F /* Resources */,
 				A2C664181D83A00A00095A3F /* Model */,
 				A2A2F8E51D88935F00CF527E /* ViewController */,
@@ -755,6 +768,7 @@
 				A2B7FC1D1D872B2C00E9B36E /* Dictionary+Operations.swift in Sources */,
 				A2B7FC321D872B2C00E9B36E /* TimeoutObserver.swift in Sources */,
 				A2B7FB501D86F35200E9B36E /* GenericOperation.swift in Sources */,
+				A21602491D8B456200805F82 /* ORAUserAuthentication.m in Sources */,
 				A2A2F9041D88DBFA00CF527E /* NSDate+Utilities.m in Sources */,
 				A2A2F8DE1D886B6C00CF527E /* MessageListOperation.swift in Sources */,
 				A2B7FC3F1D874CEB00E9B36E /* UserOperation.swift in Sources */,

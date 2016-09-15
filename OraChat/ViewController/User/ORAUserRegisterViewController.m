@@ -3,6 +3,7 @@
 #import "OraChat-Swift.h"
 #import "AppDelegate.h"
 #import "NSString+Utilities.h"
+#import "ORAUserAuthentication.h"
 
 @interface ORAUserRegisterViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *filedName;
@@ -60,18 +61,9 @@
         [ProgressHUD showError:@"Passwords dont match."];
         return;
     }
-    
-//    [[NSNotificationCenter defaultCenter] postNotificationName:@"eventUserLogin" object:self userInfo:nil];
+
     UserOperation *registerOp = [[UserOperation alloc] initWithEmail:email password:password username:name taskCompletionCallback:^(User * _Nullable user, NSError * _Nullable error) {
-        if (error == nil) {
-            if (user != nil) {
-                [User setCurrentUser:user];
-                [[NSNotificationCenter defaultCenter] postNotificationName:@"eventUserLogin" object:self userInfo:nil];
-                [ProgressHUD dismiss];
-            }
-        } else {
-            [ProgressHUD showError:[error description]];
-        }
+        [[ORAUserAuthentication sharedInstance] signInSucceed:user password: password error:error];
     }];
     [registerOp execute];
 }

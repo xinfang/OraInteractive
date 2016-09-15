@@ -1,8 +1,8 @@
 #import "ORAUserLoginViewController.h"
 #import "ProgressHUD.h"
-#import "OraChat-Swift.h"
 #import "AppDelegate.h"
 #import "NSString+Utilities.h"
+#import "ORAUserAuthentication.h"
 
 @interface ORAUserLoginViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *fieldEmail;
@@ -49,13 +49,7 @@
     
     [ProgressHUD show:nil Interaction:NO];
     UserOperation *loginOp = [[UserOperation alloc] initWithEmail:email password:password taskCompletionCallback:^(User * _Nullable user, NSError * _Nullable error) {
-        if (error == nil && user != nil) {
-            [User setCurrentUser:user];
-            [ProgressHUD dismiss];
-            [[NSNotificationCenter defaultCenter] postNotificationName:@"eventUserLogin" object:self userInfo:nil];
-        } else {
-            [ProgressHUD showError:[error description]];
-        }
+        [[ORAUserAuthentication sharedInstance] signInSucceed:user password: password error:error];
     }];
     [loginOp execute];
 //    [self.operationQueue cancelAllOperations];
