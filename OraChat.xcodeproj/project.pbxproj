@@ -7,9 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B91731B94652FCBBC6966EA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C4CCAA20FF10795F77AA14 /* Pods.framework */; };
+		A2A2F8DC1D88490000CF527E /* MessageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F8DB1D88490000CF527E /* MessageOperation.swift */; };
+		A2A2F8DE1D886B6C00CF527E /* MessageListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F8DD1D886B6C00CF527E /* MessageListOperation.swift */; };
+		A2A2F8E01D886D6600CF527E /* ChatOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F8DF1D886D6600CF527E /* ChatOperation.swift */; };
+		A2A2F8E21D88794900CF527E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A2F8E11D88794900CF527E /* Login.storyboard */; };
+		A2A2F9041D88DBFA00CF527E /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F9031D88DBFA00CF527E /* NSDate+Utilities.m */; };
+		A2A2F9071D88EC7300CF527E /* NSString+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F9061D88EC7300CF527E /* NSString+Utilities.m */; };
+		A2A2F90E1D88F52B00CF527E /* ORAMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F90A1D88F52B00CF527E /* ORAMessageCell.m */; };
+		A2A2F90F1D88F52B00CF527E /* ORAMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F90B1D88F52B00CF527E /* ORAMessageViewController.m */; };
+		A2A2F9121D88F54F00CF527E /* ChatGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F9101D88F54F00CF527E /* ChatGroupViewController.swift */; };
+		A2A2F9131D88F54F00CF527E /* ChatGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F9111D88F54F00CF527E /* ChatGroupCell.swift */; };
+		A2A2F9181D88F56900CF527E /* ORAUserRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F9141D88F56900CF527E /* ORAUserRegisterViewController.m */; };
+		A2A2F9191D88F56900CF527E /* ORAUserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F9161D88F56900CF527E /* ORAUserLoginViewController.m */; };
+		A2A8A8271D8A4C06006DFCAB /* ORAAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A8A8261D8A4C06006DFCAB /* ORAAccountViewController.m */; };
+		A2A8A8391D8AEB66006DFCAB /* MessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8A8381D8AEB66006DFCAB /* MessageTests.swift */; };
+		A2A8A8481D8AF1D3006DFCAB /* MessageGroupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8A8471D8AF1D3006DFCAB /* MessageGroupTest.swift */; };
+		A2A8A84A1D8AF3AF006DFCAB /* UserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8A8491D8AF3AF006DFCAB /* UserTest.swift */; };
+		A2A8A84D1D8AF5BA006DFCAB /* MessageListOperationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8A84C1D8AF5BA006DFCAB /* MessageListOperationTest.swift */; };
+		A2A8A8501D8AFE07006DFCAB /* LoginViewUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8A84F1D8AFE07006DFCAB /* LoginViewUITest.swift */; };
+		A2A8A8521D8AFEA5006DFCAB /* ORATestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8A8511D8AFEA5006DFCAB /* ORATestCase.swift */; };
+		A2A8A8561D8B2187006DFCAB /* UIScrollView+FloatingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A8A8551D8B2187006DFCAB /* UIScrollView+FloatingButton.m */; };
+		A2B7FB251D83AE8F00E9B36E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B7FB241D83AE8F00E9B36E /* Security.framework */; };
+		A2B7FB271D83AE9700E9B36E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B7FB261D83AE9700E9B36E /* MessageUI.framework */; };
+		A2B7FB291D83AEAB00E9B36E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B7FB281D83AEAB00E9B36E /* CoreGraphics.framework */; };
+		A2B7FB2B1D83AEB700E9B36E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B7FB2A1D83AEB700E9B36E /* Foundation.framework */; };
+		A2B7FB2D1D83B74000E9B36E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B7FB2C1D83B74000E9B36E /* Images.xcassets */; };
+		A2B7FB501D86F35200E9B36E /* GenericOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FB4F1D86F35200E9B36E /* GenericOperation.swift */; };
+		A2B7FB671D870D1D00E9B36E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FB661D870D1D00E9B36E /* User.swift */; };
+		A2B7FC171D872B2C00E9B36E /* BlockObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FBF81D872B2B00E9B36E /* BlockObserver.swift */; };
+		A2B7FC181D872B2C00E9B36E /* BlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FBF91D872B2B00E9B36E /* BlockOperation.swift */; };
+		A2B7FC191D872B2C00E9B36E /* CalendarCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FBFA1D872B2B00E9B36E /* CalendarCondition.swift */; };
+		A2B7FC1A1D872B2C00E9B36E /* CKContainer+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FBFB1D872B2B00E9B36E /* CKContainer+Operations.swift */; };
+		A2B7FC1B1D872B2C00E9B36E /* CloudCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FBFC1D872B2B00E9B36E /* CloudCondition.swift */; };
+		A2B7FC1C1D872B2C00E9B36E /* DelayOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FBFD1D872B2B00E9B36E /* DelayOperation.swift */; };
+		A2B7FC1D1D872B2C00E9B36E /* Dictionary+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FBFE1D872B2B00E9B36E /* Dictionary+Operations.swift */; };
+		A2B7FC1E1D872B2C00E9B36E /* ExclusivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FBFF1D872B2B00E9B36E /* ExclusivityController.swift */; };
+		A2B7FC1F1D872B2C00E9B36E /* GroupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC001D872B2B00E9B36E /* GroupOperation.swift */; };
+		A2B7FC201D872B2C00E9B36E /* HealthCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC011D872B2B00E9B36E /* HealthCondition.swift */; };
+		A2B7FC211D872B2C00E9B36E /* LocationCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC021D872B2B00E9B36E /* LocationCondition.swift */; };
+		A2B7FC221D872B2C00E9B36E /* LocationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC031D872B2B00E9B36E /* LocationOperation.swift */; };
+		A2B7FC231D872B2C00E9B36E /* MutuallyExclusive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC041D872B2B00E9B36E /* MutuallyExclusive.swift */; };
+		A2B7FC241D872B2C00E9B36E /* NegatedCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC051D872B2B00E9B36E /* NegatedCondition.swift */; };
+		A2B7FC251D872B2C00E9B36E /* NoCancelledDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC061D872B2B00E9B36E /* NoCancelledDependencies.swift */; };
+		A2B7FC261D872B2C00E9B36E /* NSLock+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC071D872B2B00E9B36E /* NSLock+Operations.swift */; };
+		A2B7FC271D872B2C00E9B36E /* NSOperation+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC081D872B2B00E9B36E /* NSOperation+Operations.swift */; };
+		A2B7FC281D872B2C00E9B36E /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC091D872B2B00E9B36E /* Operation.swift */; };
+		A2B7FC291D872B2C00E9B36E /* OperationCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC0A1D872B2B00E9B36E /* OperationCondition.swift */; };
+		A2B7FC2A1D872B2C00E9B36E /* OperationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC0B1D872B2B00E9B36E /* OperationErrors.swift */; };
+		A2B7FC2B1D872B2C00E9B36E /* OperationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC0C1D872B2B00E9B36E /* OperationObserver.swift */; };
+		A2B7FC2C1D872B2C00E9B36E /* OperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC0D1D872B2B00E9B36E /* OperationQueue.swift */; };
+		A2B7FC2D1D872B2C00E9B36E /* PassbookCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC0E1D872B2B00E9B36E /* PassbookCondition.swift */; };
+		A2B7FC2E1D872B2C00E9B36E /* PhotosCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC0F1D872B2B00E9B36E /* PhotosCondition.swift */; };
+		A2B7FC2F1D872B2C00E9B36E /* ReachabilityCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC101D872B2B00E9B36E /* ReachabilityCondition.swift */; };
+		A2B7FC301D872B2C00E9B36E /* RemoteNotificationCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC111D872B2B00E9B36E /* RemoteNotificationCondition.swift */; };
+		A2B7FC311D872B2C00E9B36E /* SilentCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC121D872B2B00E9B36E /* SilentCondition.swift */; };
+		A2B7FC321D872B2C00E9B36E /* TimeoutObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC131D872B2B00E9B36E /* TimeoutObserver.swift */; };
+		A2B7FC331D872B2C00E9B36E /* UIUserNotifications+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC141D872B2B00E9B36E /* UIUserNotifications+Operations.swift */; };
+		A2B7FC341D872B2C00E9B36E /* URLSessionTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC151D872B2B00E9B36E /* URLSessionTaskOperation.swift */; };
+		A2B7FC351D872B2C00E9B36E /* UserNotificationCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC161D872B2C00E9B36E /* UserNotificationCondition.swift */; };
+		A2B7FC3D1D874CEB00E9B36E /* ChatListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC3A1D874CEB00E9B36E /* ChatListOperation.swift */; };
+		A2B7FC3F1D874CEB00E9B36E /* UserOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC3C1D874CEB00E9B36E /* UserOperation.swift */; };
+		A2B7FC411D875B9000E9B36E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FC401D875B9000E9B36E /* Message.swift */; };
+		A2B7FCED1D87A46300E9B36E /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FCEB1D87A46300E9B36E /* URLSessionManager.swift */; };
+		A2B7FCEE1D87A46300E9B36E /* JSONServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FCEC1D87A46300E9B36E /* JSONServiceError.swift */; };
+		A2B7FCF21D87B4D800E9B36E /* MessageGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7FCF11D87B4D800E9B36E /* MessageGroup.swift */; };
 		A2C663D41D83997900095A3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C663D31D83997900095A3F /* main.m */; };
 		A2C663D71D83997900095A3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C663D61D83997900095A3F /* AppDelegate.m */; };
-		A2C663DA1D83997900095A3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C663D91D83997900095A3F /* ViewController.m */; };
 		A2C663DD1D83997900095A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C663DB1D83997900095A3F /* Main.storyboard */; };
 		A2C663DF1D83997900095A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C663DE1D83997900095A3F /* Assets.xcassets */; };
 		A2C663E21D83997900095A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C663E01D83997900095A3F /* LaunchScreen.storyboard */; };
@@ -18,6 +82,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A2B7FB7C1D87183F00E9B36E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C663C71D83997900095A3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C663CE1D83997900095A3F;
+			remoteInfo = OraChat;
+		};
 		A2C663E91D83997A00095A3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A2C663C71D83997900095A3F /* Project object */;
@@ -35,12 +106,89 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F3A20B832D789153D67308 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4364FD1C78FFAFC10935AD9F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9C787911F45B57E4F6AB8AFB /* Pods_OraChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OraChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A2F8DB1D88490000CF527E /* MessageOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageOperation.swift; path = "App Operations/MessageOperation.swift"; sourceTree = "<group>"; };
+		A2A2F8DD1D886B6C00CF527E /* MessageListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageListOperation.swift; path = "App Operations/MessageListOperation.swift"; sourceTree = "<group>"; };
+		A2A2F8DF1D886D6600CF527E /* ChatOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatOperation.swift; path = "App Operations/ChatOperation.swift"; sourceTree = "<group>"; };
+		A2A2F8E11D88794900CF527E /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A2A2F8F11D88A41C00CF527E /* OraChat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OraChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		A2A2F9021D88DBFA00CF527E /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utilities.h"; path = "Utilities/NSDate+Utilities.h"; sourceTree = "<group>"; };
+		A2A2F9031D88DBFA00CF527E /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utilities.m"; path = "Utilities/NSDate+Utilities.m"; sourceTree = "<group>"; };
+		A2A2F9051D88EC7300CF527E /* NSString+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Utilities.h"; path = "Utilities/NSString+Utilities.h"; sourceTree = "<group>"; };
+		A2A2F9061D88EC7300CF527E /* NSString+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utilities.m"; path = "Utilities/NSString+Utilities.m"; sourceTree = "<group>"; };
+		A2A2F90A1D88F52B00CF527E /* ORAMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORAMessageCell.m; path = ViewController/Message/ORAMessageCell.m; sourceTree = "<group>"; };
+		A2A2F90B1D88F52B00CF527E /* ORAMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORAMessageViewController.m; path = ViewController/Message/ORAMessageViewController.m; sourceTree = "<group>"; };
+		A2A2F90C1D88F52B00CF527E /* ORAMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORAMessageCell.h; path = ViewController/Message/ORAMessageCell.h; sourceTree = "<group>"; };
+		A2A2F90D1D88F52B00CF527E /* ORAMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORAMessageViewController.h; path = ViewController/Message/ORAMessageViewController.h; sourceTree = "<group>"; };
+		A2A2F9101D88F54F00CF527E /* ChatGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatGroupViewController.swift; path = ViewController/Chat/ChatGroupViewController.swift; sourceTree = "<group>"; };
+		A2A2F9111D88F54F00CF527E /* ChatGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatGroupCell.swift; path = ViewController/Chat/ChatGroupCell.swift; sourceTree = "<group>"; };
+		A2A2F9141D88F56900CF527E /* ORAUserRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORAUserRegisterViewController.m; path = ViewController/User/ORAUserRegisterViewController.m; sourceTree = "<group>"; };
+		A2A2F9151D88F56900CF527E /* ORAUserLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORAUserLoginViewController.h; path = ViewController/User/ORAUserLoginViewController.h; sourceTree = "<group>"; };
+		A2A2F9161D88F56900CF527E /* ORAUserLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORAUserLoginViewController.m; path = ViewController/User/ORAUserLoginViewController.m; sourceTree = "<group>"; };
+		A2A2F9171D88F56900CF527E /* ORAUserRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORAUserRegisterViewController.h; path = ViewController/User/ORAUserRegisterViewController.h; sourceTree = "<group>"; };
+		A2A8A8251D8A4C06006DFCAB /* ORAAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORAAccountViewController.h; path = ViewController/User/ORAAccountViewController.h; sourceTree = "<group>"; };
+		A2A8A8261D8A4C06006DFCAB /* ORAAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORAAccountViewController.m; path = ViewController/User/ORAAccountViewController.m; sourceTree = "<group>"; };
+		A2A8A8371D8AEB65006DFCAB /* OraChatTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OraChatTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		A2A8A8381D8AEB66006DFCAB /* MessageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageTests.swift; path = Model/MessageTests.swift; sourceTree = "<group>"; };
+		A2A8A8471D8AF1D3006DFCAB /* MessageGroupTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageGroupTest.swift; path = Model/MessageGroupTest.swift; sourceTree = "<group>"; };
+		A2A8A8491D8AF3AF006DFCAB /* UserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserTest.swift; path = Model/UserTest.swift; sourceTree = "<group>"; };
+		A2A8A84C1D8AF5BA006DFCAB /* MessageListOperationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageListOperationTest.swift; sourceTree = "<group>"; };
+		A2A8A84E1D8AFE05006DFCAB /* OraChatUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OraChatUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		A2A8A84F1D8AFE07006DFCAB /* LoginViewUITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewUITest.swift; sourceTree = "<group>"; };
+		A2A8A8511D8AFEA5006DFCAB /* ORATestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORATestCase.swift; sourceTree = "<group>"; };
+		A2A8A8541D8B2187006DFCAB /* UIScrollView+FloatingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+FloatingButton.h"; path = "MEVFloatingButton/UIScrollView+FloatingButton.h"; sourceTree = "<group>"; };
+		A2A8A8551D8B2187006DFCAB /* UIScrollView+FloatingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+FloatingButton.m"; path = "MEVFloatingButton/UIScrollView+FloatingButton.m"; sourceTree = "<group>"; };
+		A2B7FB241D83AE8F00E9B36E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A2B7FB261D83AE9700E9B36E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A2B7FB281D83AEAB00E9B36E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2B7FB2A1D83AEB700E9B36E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2B7FB2C1D83B74000E9B36E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2B7FB4F1D86F35200E9B36E /* GenericOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericOperation.swift; path = "App Operations/GenericOperation.swift"; sourceTree = "<group>"; };
+		A2B7FB661D870D1D00E9B36E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/User.swift; sourceTree = "<group>"; };
+		A2B7FB781D87183F00E9B36E /* AppleOperationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleOperationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B7FBF81D872B2B00E9B36E /* BlockObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockObserver.swift; path = Operations/BlockObserver.swift; sourceTree = "<group>"; };
+		A2B7FBF91D872B2B00E9B36E /* BlockOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockOperation.swift; path = Operations/BlockOperation.swift; sourceTree = "<group>"; };
+		A2B7FBFA1D872B2B00E9B36E /* CalendarCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarCondition.swift; path = Operations/CalendarCondition.swift; sourceTree = "<group>"; };
+		A2B7FBFB1D872B2B00E9B36E /* CKContainer+Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CKContainer+Operations.swift"; path = "Operations/CKContainer+Operations.swift"; sourceTree = "<group>"; };
+		A2B7FBFC1D872B2B00E9B36E /* CloudCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudCondition.swift; path = Operations/CloudCondition.swift; sourceTree = "<group>"; };
+		A2B7FBFD1D872B2B00E9B36E /* DelayOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DelayOperation.swift; path = Operations/DelayOperation.swift; sourceTree = "<group>"; };
+		A2B7FBFE1D872B2B00E9B36E /* Dictionary+Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Dictionary+Operations.swift"; path = "Operations/Dictionary+Operations.swift"; sourceTree = "<group>"; };
+		A2B7FBFF1D872B2B00E9B36E /* ExclusivityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExclusivityController.swift; path = Operations/ExclusivityController.swift; sourceTree = "<group>"; };
+		A2B7FC001D872B2B00E9B36E /* GroupOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupOperation.swift; path = Operations/GroupOperation.swift; sourceTree = "<group>"; };
+		A2B7FC011D872B2B00E9B36E /* HealthCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthCondition.swift; path = Operations/HealthCondition.swift; sourceTree = "<group>"; };
+		A2B7FC021D872B2B00E9B36E /* LocationCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationCondition.swift; path = Operations/LocationCondition.swift; sourceTree = "<group>"; };
+		A2B7FC031D872B2B00E9B36E /* LocationOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationOperation.swift; path = Operations/LocationOperation.swift; sourceTree = "<group>"; };
+		A2B7FC041D872B2B00E9B36E /* MutuallyExclusive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MutuallyExclusive.swift; path = Operations/MutuallyExclusive.swift; sourceTree = "<group>"; };
+		A2B7FC051D872B2B00E9B36E /* NegatedCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NegatedCondition.swift; path = Operations/NegatedCondition.swift; sourceTree = "<group>"; };
+		A2B7FC061D872B2B00E9B36E /* NoCancelledDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoCancelledDependencies.swift; path = Operations/NoCancelledDependencies.swift; sourceTree = "<group>"; };
+		A2B7FC071D872B2B00E9B36E /* NSLock+Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSLock+Operations.swift"; path = "Operations/NSLock+Operations.swift"; sourceTree = "<group>"; };
+		A2B7FC081D872B2B00E9B36E /* NSOperation+Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSOperation+Operations.swift"; path = "Operations/NSOperation+Operations.swift"; sourceTree = "<group>"; };
+		A2B7FC091D872B2B00E9B36E /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = Operations/Operation.swift; sourceTree = "<group>"; };
+		A2B7FC0A1D872B2B00E9B36E /* OperationCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperationCondition.swift; path = Operations/OperationCondition.swift; sourceTree = "<group>"; };
+		A2B7FC0B1D872B2B00E9B36E /* OperationErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperationErrors.swift; path = Operations/OperationErrors.swift; sourceTree = "<group>"; };
+		A2B7FC0C1D872B2B00E9B36E /* OperationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperationObserver.swift; path = Operations/OperationObserver.swift; sourceTree = "<group>"; };
+		A2B7FC0D1D872B2B00E9B36E /* OperationQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperationQueue.swift; path = Operations/OperationQueue.swift; sourceTree = "<group>"; };
+		A2B7FC0E1D872B2B00E9B36E /* PassbookCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PassbookCondition.swift; path = Operations/PassbookCondition.swift; sourceTree = "<group>"; };
+		A2B7FC0F1D872B2B00E9B36E /* PhotosCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosCondition.swift; path = Operations/PhotosCondition.swift; sourceTree = "<group>"; };
+		A2B7FC101D872B2B00E9B36E /* ReachabilityCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReachabilityCondition.swift; path = Operations/ReachabilityCondition.swift; sourceTree = "<group>"; };
+		A2B7FC111D872B2B00E9B36E /* RemoteNotificationCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoteNotificationCondition.swift; path = Operations/RemoteNotificationCondition.swift; sourceTree = "<group>"; };
+		A2B7FC121D872B2B00E9B36E /* SilentCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SilentCondition.swift; path = Operations/SilentCondition.swift; sourceTree = "<group>"; };
+		A2B7FC131D872B2B00E9B36E /* TimeoutObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeoutObserver.swift; path = Operations/TimeoutObserver.swift; sourceTree = "<group>"; };
+		A2B7FC141D872B2B00E9B36E /* UIUserNotifications+Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIUserNotifications+Operations.swift"; path = "Operations/UIUserNotifications+Operations.swift"; sourceTree = "<group>"; };
+		A2B7FC151D872B2B00E9B36E /* URLSessionTaskOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLSessionTaskOperation.swift; path = Operations/URLSessionTaskOperation.swift; sourceTree = "<group>"; };
+		A2B7FC161D872B2C00E9B36E /* UserNotificationCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserNotificationCondition.swift; path = Operations/UserNotificationCondition.swift; sourceTree = "<group>"; };
+		A2B7FC3A1D874CEB00E9B36E /* ChatListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatListOperation.swift; path = "App Operations/ChatListOperation.swift"; sourceTree = "<group>"; };
+		A2B7FC3C1D874CEB00E9B36E /* UserOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserOperation.swift; path = "App Operations/UserOperation.swift"; sourceTree = "<group>"; };
+		A2B7FC401D875B9000E9B36E /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Model/Message.swift; sourceTree = "<group>"; };
+		A2B7FCEB1D87A46300E9B36E /* URLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLSessionManager.swift; path = Networking/URLSessionManager.swift; sourceTree = "<group>"; };
+		A2B7FCEC1D87A46300E9B36E /* JSONServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONServiceError.swift; path = Networking/JSONServiceError.swift; sourceTree = "<group>"; };
+		A2B7FCF11D87B4D800E9B36E /* MessageGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageGroup.swift; path = Model/MessageGroup.swift; sourceTree = "<group>"; };
 		A2C663CF1D83997900095A3F /* OraChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OraChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C663D31D83997900095A3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2C663D51D83997900095A3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2C663D61D83997900095A3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A2C663D81D83997900095A3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A2C663D91D83997900095A3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A2C663DC1D83997900095A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2C663DE1D83997900095A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2C663E11D83997900095A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,13 +199,26 @@
 		A2C663F31D83997A00095A3F /* OraChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OraChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C663F71D83997A00095A3F /* OraChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OraChatUITests.m; sourceTree = "<group>"; };
 		A2C663F91D83997A00095A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C4CCAA20FF10795F77AA14 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A2B7FB751D87183F00E9B36E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2C663CC1D83997900095A3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B7FB2B1D83AEB700E9B36E /* Foundation.framework in Frameworks */,
+				A2B7FB291D83AEAB00E9B36E /* CoreGraphics.framework in Frameworks */,
+				A2B7FB271D83AE9700E9B36E /* MessageUI.framework in Frameworks */,
+				A2B7FB251D83AE8F00E9B36E /* Security.framework in Frameworks */,
+				7B91731B94652FCBBC6966EA /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +239,158 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D8CF1E01CEA40A1C1F14969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7FB2A1D83AEB700E9B36E /* Foundation.framework */,
+				A2B7FB281D83AEAB00E9B36E /* CoreGraphics.framework */,
+				A2B7FB261D83AE9700E9B36E /* MessageUI.framework */,
+				A2B7FB241D83AE8F00E9B36E /* Security.framework */,
+				9C787911F45B57E4F6AB8AFB /* Pods_OraChat.framework */,
+				C9C4CCAA20FF10795F77AA14 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8683996E82F4D5A2900F2864 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02F3A20B832D789153D67308 /* Pods.debug.xcconfig */,
+				4364FD1C78FFAFC10935AD9F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2A2F8E51D88935F00CF527E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2F9091D88F49500CF527E /* User */,
+				A2A2F9081D88F48B00CF527E /* Chat */,
+				A2A2F8E61D88938000CF527E /* Message */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		A2A2F8E61D88938000CF527E /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2F90C1D88F52B00CF527E /* ORAMessageCell.h */,
+				A2A2F90A1D88F52B00CF527E /* ORAMessageCell.m */,
+				A2A2F90D1D88F52B00CF527E /* ORAMessageViewController.h */,
+				A2A2F90B1D88F52B00CF527E /* ORAMessageViewController.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		A2A2F9081D88F48B00CF527E /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2F9101D88F54F00CF527E /* ChatGroupViewController.swift */,
+				A2A2F9111D88F54F00CF527E /* ChatGroupCell.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		A2A2F9091D88F49500CF527E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2F9171D88F56900CF527E /* ORAUserRegisterViewController.h */,
+				A2A2F9141D88F56900CF527E /* ORAUserRegisterViewController.m */,
+				A2A2F9151D88F56900CF527E /* ORAUserLoginViewController.h */,
+				A2A2F9161D88F56900CF527E /* ORAUserLoginViewController.m */,
+				A2A8A8251D8A4C06006DFCAB /* ORAAccountViewController.h */,
+				A2A8A8261D8A4C06006DFCAB /* ORAAccountViewController.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		A2A8A8361D8AEB01006DFCAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2A8A8381D8AEB66006DFCAB /* MessageTests.swift */,
+				A2A8A8471D8AF1D3006DFCAB /* MessageGroupTest.swift */,
+				A2A8A8491D8AF3AF006DFCAB /* UserTest.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A2A8A84B1D8AF5A8006DFCAB /* App Operations */ = {
+			isa = PBXGroup;
+			children = (
+				A2A8A84C1D8AF5BA006DFCAB /* MessageListOperationTest.swift */,
+			);
+			name = "App Operations";
+			sourceTree = "<group>";
+		};
+		A2A8A8531D8B217A006DFCAB /* MEVFloatingButton  */ = {
+			isa = PBXGroup;
+			children = (
+				A2A8A8541D8B2187006DFCAB /* UIScrollView+FloatingButton.h */,
+				A2A8A8551D8B2187006DFCAB /* UIScrollView+FloatingButton.m */,
+			);
+			name = "MEVFloatingButton ";
+			sourceTree = "<group>";
+		};
+		A2B7FB4A1D86F27F00E9B36E /* App Operations */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7FC3A1D874CEB00E9B36E /* ChatListOperation.swift */,
+				A2A2F8DF1D886D6600CF527E /* ChatOperation.swift */,
+				A2B7FC3C1D874CEB00E9B36E /* UserOperation.swift */,
+				A2A2F8DB1D88490000CF527E /* MessageOperation.swift */,
+				A2A2F8DD1D886B6C00CF527E /* MessageListOperation.swift */,
+				A2B7FB4F1D86F35200E9B36E /* GenericOperation.swift */,
+			);
+			name = "App Operations";
+			sourceTree = "<group>";
+		};
+		A2B7FBF71D872AFF00E9B36E /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7FBF81D872B2B00E9B36E /* BlockObserver.swift */,
+				A2B7FBF91D872B2B00E9B36E /* BlockOperation.swift */,
+				A2B7FBFA1D872B2B00E9B36E /* CalendarCondition.swift */,
+				A2B7FBFB1D872B2B00E9B36E /* CKContainer+Operations.swift */,
+				A2B7FBFC1D872B2B00E9B36E /* CloudCondition.swift */,
+				A2B7FBFD1D872B2B00E9B36E /* DelayOperation.swift */,
+				A2B7FBFE1D872B2B00E9B36E /* Dictionary+Operations.swift */,
+				A2B7FBFF1D872B2B00E9B36E /* ExclusivityController.swift */,
+				A2B7FC001D872B2B00E9B36E /* GroupOperation.swift */,
+				A2B7FC011D872B2B00E9B36E /* HealthCondition.swift */,
+				A2B7FC021D872B2B00E9B36E /* LocationCondition.swift */,
+				A2B7FC031D872B2B00E9B36E /* LocationOperation.swift */,
+				A2B7FC041D872B2B00E9B36E /* MutuallyExclusive.swift */,
+				A2B7FC051D872B2B00E9B36E /* NegatedCondition.swift */,
+				A2B7FC061D872B2B00E9B36E /* NoCancelledDependencies.swift */,
+				A2B7FC071D872B2B00E9B36E /* NSLock+Operations.swift */,
+				A2B7FC081D872B2B00E9B36E /* NSOperation+Operations.swift */,
+				A2B7FC091D872B2B00E9B36E /* Operation.swift */,
+				A2B7FC0A1D872B2B00E9B36E /* OperationCondition.swift */,
+				A2B7FC0B1D872B2B00E9B36E /* OperationErrors.swift */,
+				A2B7FC0C1D872B2B00E9B36E /* OperationObserver.swift */,
+				A2B7FC0D1D872B2B00E9B36E /* OperationQueue.swift */,
+				A2B7FC0E1D872B2B00E9B36E /* PassbookCondition.swift */,
+				A2B7FC0F1D872B2B00E9B36E /* PhotosCondition.swift */,
+				A2B7FC101D872B2B00E9B36E /* ReachabilityCondition.swift */,
+				A2B7FC111D872B2B00E9B36E /* RemoteNotificationCondition.swift */,
+				A2B7FC121D872B2B00E9B36E /* SilentCondition.swift */,
+				A2B7FC131D872B2B00E9B36E /* TimeoutObserver.swift */,
+				A2B7FC141D872B2B00E9B36E /* UIUserNotifications+Operations.swift */,
+				A2B7FC151D872B2B00E9B36E /* URLSessionTaskOperation.swift */,
+				A2B7FC161D872B2C00E9B36E /* UserNotificationCondition.swift */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		A2B7FCEA1D87A45300E9B36E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7FCEB1D87A46300E9B36E /* URLSessionManager.swift */,
+				A2B7FCEC1D87A46300E9B36E /* JSONServiceError.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 		A2C663C61D83997900095A3F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +398,8 @@
 				A2C663EB1D83997A00095A3F /* OraChatTests */,
 				A2C663F61D83997A00095A3F /* OraChatUITests */,
 				A2C663D01D83997900095A3F /* Products */,
+				8683996E82F4D5A2900F2864 /* Pods */,
+				1D8CF1E01CEA40A1C1F14969 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +409,7 @@
 				A2C663CF1D83997900095A3F /* OraChat.app */,
 				A2C663E81D83997A00095A3F /* OraChatTests.xctest */,
 				A2C663F31D83997A00095A3F /* OraChatUITests.xctest */,
+				A2B7FB781D87183F00E9B36E /* AppleOperationsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,14 +417,23 @@
 		A2C663D11D83997900095A3F /* OraChat */ = {
 			isa = PBXGroup;
 			children = (
+				A2A8A8531D8B217A006DFCAB /* MEVFloatingButton  */,
+				A2B7FBF71D872AFF00E9B36E /* Operations */,
+				A2B7FB4A1D86F27F00E9B36E /* App Operations */,
+				A2B7FCEA1D87A45300E9B36E /* Networking */,
+				A2C6641D1D83A07000095A3F /* Utilities */,
+				A2C6641C1D83A04000095A3F /* Resources */,
+				A2C664181D83A00A00095A3F /* Model */,
+				A2A2F8E51D88935F00CF527E /* ViewController */,
 				A2C663D51D83997900095A3F /* AppDelegate.h */,
 				A2C663D61D83997900095A3F /* AppDelegate.m */,
-				A2C663D81D83997900095A3F /* ViewController.h */,
-				A2C663D91D83997900095A3F /* ViewController.m */,
 				A2C663DB1D83997900095A3F /* Main.storyboard */,
-				A2C663DE1D83997900095A3F /* Assets.xcassets */,
+				A2A2F8E11D88794900CF527E /* Login.storyboard */,
 				A2C663E01D83997900095A3F /* LaunchScreen.storyboard */,
+				A2A2F8F11D88A41C00CF527E /* OraChat-Bridging-Header.h */,
 				A2C663E31D83997A00095A3F /* Info.plist */,
+				A2C663DE1D83997900095A3F /* Assets.xcassets */,
+				A2B7FB2C1D83B74000E9B36E /* Images.xcassets */,
 				A2C663D21D83997900095A3F /* Supporting Files */,
 			);
 			path = OraChat;
@@ -125,7 +450,10 @@
 		A2C663EB1D83997A00095A3F /* OraChatTests */ = {
 			isa = PBXGroup;
 			children = (
+				A2A8A8361D8AEB01006DFCAB /* Model */,
+				A2A8A84B1D8AF5A8006DFCAB /* App Operations */,
 				A2C663EC1D83997A00095A3F /* OraChatTests.m */,
+				A2A8A8371D8AEB65006DFCAB /* OraChatTests-Bridging-Header.h */,
 				A2C663EE1D83997A00095A3F /* Info.plist */,
 			);
 			path = OraChatTests;
@@ -136,20 +464,72 @@
 			children = (
 				A2C663F71D83997A00095A3F /* OraChatUITests.m */,
 				A2C663F91D83997A00095A3F /* Info.plist */,
+				A2A8A84F1D8AFE07006DFCAB /* LoginViewUITest.swift */,
+				A2A8A8511D8AFEA5006DFCAB /* ORATestCase.swift */,
+				A2A8A84E1D8AFE05006DFCAB /* OraChatUITests-Bridging-Header.h */,
 			);
 			path = OraChatUITests;
+			sourceTree = "<group>";
+		};
+		A2C664181D83A00A00095A3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7FB661D870D1D00E9B36E /* User.swift */,
+				A2B7FC401D875B9000E9B36E /* Message.swift */,
+				A2B7FCF11D87B4D800E9B36E /* MessageGroup.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A2C6641C1D83A04000095A3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A2C6641D1D83A07000095A3F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2F9021D88DBFA00CF527E /* NSDate+Utilities.h */,
+				A2A2F9031D88DBFA00CF527E /* NSDate+Utilities.m */,
+				A2A2F9051D88EC7300CF527E /* NSString+Utilities.h */,
+				A2A2F9061D88EC7300CF527E /* NSString+Utilities.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A2B7FB771D87183F00E9B36E /* AppleOperationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B7FB8A1D87183F00E9B36E /* Build configuration list for PBXNativeTarget "AppleOperationsTests" */;
+			buildPhases = (
+				A2B7FB741D87183F00E9B36E /* Sources */,
+				A2B7FB751D87183F00E9B36E /* Frameworks */,
+				A2B7FB761D87183F00E9B36E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B7FB7D1D87183F00E9B36E /* PBXTargetDependency */,
+			);
+			name = AppleOperationsTests;
+			productName = AppleOperationsTests;
+			productReference = A2B7FB781D87183F00E9B36E /* AppleOperationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A2C663CE1D83997900095A3F /* OraChat */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2C663FC1D83997A00095A3F /* Build configuration list for PBXNativeTarget "OraChat" */;
 			buildPhases = (
+				FD23D3529ACC5AB5BD8824DC /* Check Pods Manifest.lock */,
 				A2C663CB1D83997900095A3F /* Sources */,
 				A2C663CC1D83997900095A3F /* Frameworks */,
 				A2C663CD1D83997900095A3F /* Resources */,
+				B93DF2B85012A2CD10B43398 /* Embed Pods Frameworks */,
+				52E68769868B14B9AE399044 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +582,14 @@
 		A2C663C71D83997900095A3F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Xinfang Yuan";
 				TargetAttributes = {
+					A2B7FB771D87183F00E9B36E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A2C663CE1D83997900095A3F;
+					};
 					A2C663CE1D83997900095A3F = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -234,17 +619,27 @@
 				A2C663CE1D83997900095A3F /* OraChat */,
 				A2C663E71D83997A00095A3F /* OraChatTests */,
 				A2C663F21D83997A00095A3F /* OraChatUITests */,
+				A2B7FB771D87183F00E9B36E /* AppleOperationsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A2B7FB761D87183F00E9B36E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2C663CD1D83997900095A3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A2C663E21D83997900095A3F /* LaunchScreen.storyboard in Resources */,
+				A2B7FB2D1D83B74000E9B36E /* Images.xcassets in Resources */,
 				A2C663DF1D83997900095A3F /* Assets.xcassets in Resources */,
+				A2A2F8E21D88794900CF527E /* Login.storyboard in Resources */,
 				A2C663DD1D83997900095A3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +660,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52E68769868B14B9AE399044 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B93DF2B85012A2CD10B43398 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD23D3529ACC5AB5BD8824DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		A2B7FB741D87183F00E9B36E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2C663CB1D83997900095A3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2C663DA1D83997900095A3F /* ViewController.m in Sources */,
+				A2B7FC2D1D872B2C00E9B36E /* PassbookCondition.swift in Sources */,
+				A2B7FCED1D87A46300E9B36E /* URLSessionManager.swift in Sources */,
+				A2B7FC2E1D872B2C00E9B36E /* PhotosCondition.swift in Sources */,
+				A2A2F90E1D88F52B00CF527E /* ORAMessageCell.m in Sources */,
+				A2B7FC311D872B2C00E9B36E /* SilentCondition.swift in Sources */,
+				A2B7FC411D875B9000E9B36E /* Message.swift in Sources */,
+				A2B7FC221D872B2C00E9B36E /* LocationOperation.swift in Sources */,
+				A2B7FC171D872B2C00E9B36E /* BlockObserver.swift in Sources */,
+				A2A2F9121D88F54F00CF527E /* ChatGroupViewController.swift in Sources */,
+				A2B7FC211D872B2C00E9B36E /* LocationCondition.swift in Sources */,
+				A2B7FC341D872B2C00E9B36E /* URLSessionTaskOperation.swift in Sources */,
 				A2C663D71D83997900095A3F /* AppDelegate.m in Sources */,
+				A2A8A8271D8A4C06006DFCAB /* ORAAccountViewController.m in Sources */,
+				A2A2F8DC1D88490000CF527E /* MessageOperation.swift in Sources */,
+				A2B7FC351D872B2C00E9B36E /* UserNotificationCondition.swift in Sources */,
+				A2B7FC331D872B2C00E9B36E /* UIUserNotifications+Operations.swift in Sources */,
+				A2B7FC1A1D872B2C00E9B36E /* CKContainer+Operations.swift in Sources */,
 				A2C663D41D83997900095A3F /* main.m in Sources */,
+				A2B7FC3D1D874CEB00E9B36E /* ChatListOperation.swift in Sources */,
+				A2B7FCEE1D87A46300E9B36E /* JSONServiceError.swift in Sources */,
+				A2B7FC261D872B2C00E9B36E /* NSLock+Operations.swift in Sources */,
+				A2B7FB671D870D1D00E9B36E /* User.swift in Sources */,
+				A2A2F9191D88F56900CF527E /* ORAUserLoginViewController.m in Sources */,
+				A2B7FC281D872B2C00E9B36E /* Operation.swift in Sources */,
+				A2B7FC291D872B2C00E9B36E /* OperationCondition.swift in Sources */,
+				A2B7FC181D872B2C00E9B36E /* BlockOperation.swift in Sources */,
+				A2B7FC251D872B2C00E9B36E /* NoCancelledDependencies.swift in Sources */,
+				A2B7FC1B1D872B2C00E9B36E /* CloudCondition.swift in Sources */,
+				A2B7FC2B1D872B2C00E9B36E /* OperationObserver.swift in Sources */,
+				A2A2F9181D88F56900CF527E /* ORAUserRegisterViewController.m in Sources */,
+				A2B7FC1F1D872B2C00E9B36E /* GroupOperation.swift in Sources */,
+				A2B7FC231D872B2C00E9B36E /* MutuallyExclusive.swift in Sources */,
+				A2B7FC1D1D872B2C00E9B36E /* Dictionary+Operations.swift in Sources */,
+				A2B7FC321D872B2C00E9B36E /* TimeoutObserver.swift in Sources */,
+				A2B7FB501D86F35200E9B36E /* GenericOperation.swift in Sources */,
+				A2A2F9041D88DBFA00CF527E /* NSDate+Utilities.m in Sources */,
+				A2A2F8DE1D886B6C00CF527E /* MessageListOperation.swift in Sources */,
+				A2B7FC3F1D874CEB00E9B36E /* UserOperation.swift in Sources */,
+				A2B7FC2F1D872B2C00E9B36E /* ReachabilityCondition.swift in Sources */,
+				A2B7FC1E1D872B2C00E9B36E /* ExclusivityController.swift in Sources */,
+				A2B7FC241D872B2C00E9B36E /* NegatedCondition.swift in Sources */,
+				A2A8A8561D8B2187006DFCAB /* UIScrollView+FloatingButton.m in Sources */,
+				A2B7FC1C1D872B2C00E9B36E /* DelayOperation.swift in Sources */,
+				A2B7FCF21D87B4D800E9B36E /* MessageGroup.swift in Sources */,
+				A2B7FC191D872B2C00E9B36E /* CalendarCondition.swift in Sources */,
+				A2A2F90F1D88F52B00CF527E /* ORAMessageViewController.m in Sources */,
+				A2A2F9131D88F54F00CF527E /* ChatGroupCell.swift in Sources */,
+				A2B7FC271D872B2C00E9B36E /* NSOperation+Operations.swift in Sources */,
+				A2B7FC301D872B2C00E9B36E /* RemoteNotificationCondition.swift in Sources */,
+				A2B7FC2C1D872B2C00E9B36E /* OperationQueue.swift in Sources */,
+				A2B7FC2A1D872B2C00E9B36E /* OperationErrors.swift in Sources */,
+				A2B7FC201D872B2C00E9B36E /* HealthCondition.swift in Sources */,
+				A2A2F9071D88EC7300CF527E /* NSString+Utilities.m in Sources */,
+				A2A2F8E01D886D6600CF527E /* ChatOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +781,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A8A84A1D8AF3AF006DFCAB /* UserTest.swift in Sources */,
 				A2C663ED1D83997A00095A3F /* OraChatTests.m in Sources */,
+				A2A8A84D1D8AF5BA006DFCAB /* MessageListOperationTest.swift in Sources */,
+				A2A8A8391D8AEB66006DFCAB /* MessageTests.swift in Sources */,
+				A2A8A8481D8AF1D3006DFCAB /* MessageGroupTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +793,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A8A8521D8AFEA5006DFCAB /* ORATestCase.swift in Sources */,
+				A2A8A8501D8AFE07006DFCAB /* LoginViewUITest.swift in Sources */,
 				A2C663F81D83997A00095A3F /* OraChatUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +802,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A2B7FB7D1D87183F00E9B36E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C663CE1D83997900095A3F /* OraChat */;
+			targetProxy = A2B7FB7C1D87183F00E9B36E /* PBXContainerItemProxy */;
+		};
 		A2C663EA1D83997A00095A3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A2C663CE1D83997900095A3F /* OraChat */;
@@ -327,6 +839,29 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A2B7FB8B1D87183F00E9B36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppleOperationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ora.AppleOperationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OraChat.app/OraChat";
+			};
+			name = Debug;
+		};
+		A2B7FB8C1D87183F00E9B36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppleOperationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ora.AppleOperationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OraChat.app/OraChat";
+			};
+			name = Release;
+		};
 		A2C663FA1D83997A00095A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -348,6 +883,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -392,6 +928,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -411,23 +948,32 @@
 		};
 		A2C663FD1D83997A00095A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F3A20B832D789153D67308 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OraChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ora.OraChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OraChat/OraChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A2C663FE1D83997A00095A3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4364FD1C78FFAFC10935AD9F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OraChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ora.OraChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OraChat/OraChat-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -435,10 +981,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OraChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ora.OraChatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OraChatTests/OraChatTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OraChat.app/OraChat";
 			};
 			name = Debug;
@@ -447,10 +996,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OraChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ora.OraChatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OraChatTests/OraChatTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OraChat.app/OraChat";
 			};
 			name = Release;
@@ -458,10 +1009,13 @@
 		A2C664031D83997A00095A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OraChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ora.OraChatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OraChatUITests/OraChatUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_TARGET_NAME = OraChat;
 			};
 			name = Debug;
@@ -469,10 +1023,12 @@
 		A2C664041D83997A00095A3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OraChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ora.OraChatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OraChatUITests/OraChatUITests-Bridging-Header.h";
 				TEST_TARGET_NAME = OraChat;
 			};
 			name = Release;
@@ -480,6 +1036,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A2B7FB8A1D87183F00E9B36E /* Build configuration list for PBXNativeTarget "AppleOperationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B7FB8B1D87183F00E9B36E /* Debug */,
+				A2B7FB8C1D87183F00E9B36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A2C663CA1D83997900095A3F /* Build configuration list for PBXProject "OraChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -496,6 +1061,7 @@
 				A2C663FE1D83997A00095A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2C663FF1D83997A00095A3F /* Build configuration list for PBXNativeTarget "OraChatTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +1070,7 @@
 				A2C664011D83997A00095A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2C664021D83997A00095A3F /* Build configuration list for PBXNativeTarget "OraChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +1079,7 @@
 				A2C664041D83997A00095A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

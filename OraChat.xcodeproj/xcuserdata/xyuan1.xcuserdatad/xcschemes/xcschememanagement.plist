@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AppleOperations.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>OraChat.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A2B7FB6E1D87183F00E9B36E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2B7FB771D87183F00E9B36E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A2C663CE1D83997900095A3F</key>
 		<dict>
 			<key>primary</key>

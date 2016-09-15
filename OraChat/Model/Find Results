@@ -1,0 +1,1392 @@
+Searching 312 files for "security"
+
+/Users/xyuan1/Git/Learning/OraChat/Podfile.lock:
+    4      - AFNetworking/NSURLSession (= 2.4.1)
+    5      - AFNetworking/Reachability (= 2.4.1)
+    6:     - AFNetworking/Security (= 2.4.1)
+    7      - AFNetworking/Serialization (= 2.4.1)
+    8      - AFNetworking/UIKit (= 2.4.1)
+    9    - AFNetworking/NSURLConnection (2.4.1):
+   10      - AFNetworking/Reachability
+   11:     - AFNetworking/Security
+   12      - AFNetworking/Serialization
+   13    - AFNetworking/NSURLSession (2.4.1):
+   14      - AFNetworking/Reachability
+   15:     - AFNetworking/Security
+   16      - AFNetworking/Serialization
+   17    - AFNetworking/Reachability (2.4.1)
+   18:   - AFNetworking/Security (2.4.1)
+   19    - AFNetworking/Serialization (2.4.1)
+   20    - AFNetworking/UIKit (2.4.1):
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Info.plist:
+   23  	<key>LSRequiresIPhoneOS</key>
+   24  	<true/>
+   25: 	<key>NSAppTransportSecurity</key>
+   26  	<dict>
+   27  		<key>NSAllowsArbitraryLoads</key>
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat.xcodeproj/project.pbxproj:
+   26  		A2A8A84A1D8AF3AF006DFCAB /* UserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8A8491D8AF3AF006DFCAB /* UserTest.swift */; };
+   27  		A2A8A84D1D8AF5BA006DFCAB /* MessageListOperationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8A84C1D8AF5BA006DFCAB /* MessageListOperationTest.swift */; };
+   28: 		A2B7FB251D83AE8F00E9B36E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B7FB241D83AE8F00E9B36E /* Security.framework */; };
+   29  		A2B7FB271D83AE9700E9B36E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B7FB261D83AE9700E9B36E /* MessageUI.framework */; };
+   30  		A2B7FB291D83AEAB00E9B36E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B7FB281D83AEAB00E9B36E /* CoreGraphics.framework */; };
+   ..
+  133  		A2A8A8491D8AF3AF006DFCAB /* UserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserTest.swift; path = Model/UserTest.swift; sourceTree = "<group>"; };
+  134  		A2A8A84C1D8AF5BA006DFCAB /* MessageListOperationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageListOperationTest.swift; sourceTree = "<group>"; };
+  135: 		A2B7FB241D83AE8F00E9B36E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+  136  		A2B7FB261D83AE9700E9B36E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+  137  		A2B7FB281D83AEAB00E9B36E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+  ...
+  210  				A2B7FB291D83AEAB00E9B36E /* CoreGraphics.framework in Frameworks */,
+  211  				A2B7FB271D83AE9700E9B36E /* MessageUI.framework in Frameworks */,
+  212: 				A2B7FB251D83AE8F00E9B36E /* Security.framework in Frameworks */,
+  213  				7B91731B94652FCBBC6966EA /* Pods.framework in Frameworks */,
+  214  			);
+  ...
+  238  				A2B7FB281D83AEAB00E9B36E /* CoreGraphics.framework */,
+  239  				A2B7FB261D83AE9700E9B36E /* MessageUI.framework */,
+  240: 				A2B7FB241D83AE8F00E9B36E /* Security.framework */,
+  241  				9C787911F45B57E4F6AB8AFB /* Pods_OraChat.framework */,
+  242  				C9C4CCAA20FF10795F77AA14 /* Pods.framework */,
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat.xcworkspace/xcuserdata/xyuan1.xcuserdatad/UserInterfaceState.xcuserstate:
+    <binary>
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/Manifest.lock:
+    4      - AFNetworking/NSURLSession (= 2.4.1)
+    5      - AFNetworking/Reachability (= 2.4.1)
+    6:     - AFNetworking/Security (= 2.4.1)
+    7      - AFNetworking/Serialization (= 2.4.1)
+    8      - AFNetworking/UIKit (= 2.4.1)
+    9    - AFNetworking/NSURLConnection (2.4.1):
+   10      - AFNetworking/Reachability
+   11:     - AFNetworking/Security
+   12      - AFNetworking/Serialization
+   13    - AFNetworking/NSURLSession (2.4.1):
+   14      - AFNetworking/Reachability
+   15:     - AFNetworking/Security
+   16      - AFNetworking/Serialization
+   17    - AFNetworking/Reachability (2.4.1)
+   18:   - AFNetworking/Security (2.4.1)
+   19    - AFNetworking/Serialization (2.4.1)
+   20    - AFNetworking/UIKit (2.4.1):
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/AFNetworking/README.md:
+   77  ### Additional Functionality
+   78  
+   79: - `AFSecurityPolicy`
+   80  - `AFNetworkReachabilityManager`
+   81  
+   ..
+   84  ### HTTP Request Operation Manager
+   85  
+   86: `AFHTTPRequestOperationManager` encapsulates the common patterns of communicating with a web application over HTTP, including request creation, response serialization, network reachability monitoring, and security, as well as request operation management.
+   87  
+   88  #### `GET` Request
+   ..
+  288  ---
+  289  
+  290: ### Security Policy
+  291  
+  292: `AFSecurityPolicy` evaluates server trust against pinned X.509 certificates and public keys over secure connections.
+  293  
+  294  Adding pinned SSL certificates to your app helps prevent man-in-the-middle attacks and other vulnerabilities. Applications dealing with sensitive customer data or financial information are strongly encouraged to route all communication over an HTTPS connection with SSL pinning configured and enabled.
+  ...
+  298  ```objective-c
+  299  AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+  300: manager.securityPolicy.allowInvalidCertificates = YES; // not recommended for production
+  301  ```
+  302  
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h:
+   34  #import "AFURLResponseSerialization.h"
+   35  #import "AFURLRequestSerialization.h"
+   36: #import "AFSecurityPolicy.h"
+   37  #import "AFNetworkReachabilityManager.h"
+   38  
+   39  /**
+   40:  `AFHTTPRequestOperationManager` encapsulates the common patterns of communicating with a web application over HTTP, including request creation, response serialization, network reachability monitoring, and security, as well as request operation management.
+   41  
+   42   ## Subclassing Notes
+   ..
+  128  
+  129  ///-------------------------------
+  130: /// @name Managing Security Policy
+  131  ///-------------------------------
+  132  
+  133  /**
+  134:  The security policy used by created request operations to evaluate server trust for secure connections. `AFHTTPRequestOperationManager` uses the `defaultPolicy` unless otherwise specified.
+  135   */
+  136: @property (nonatomic, strong) AFSecurityPolicy *securityPolicy;
+  137  
+  138  ///------------------------------------
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m:
+   27  
+   28  #import <Availability.h>
+   29: #import <Security/Security.h>
+   30  
+   31  #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
+   ..
+   63      self.responseSerializer = [AFJSONResponseSerializer serializer];
+   64  
+   65:     self.securityPolicy = [AFSecurityPolicy defaultPolicy];
+   66  
+   67      self.reachabilityManager = [AFNetworkReachabilityManager sharedManager];
+   ..
+  101      operation.shouldUseCredentialStorage = self.shouldUseCredentialStorage;
+  102      operation.credential = self.credential;
+  103:     operation.securityPolicy = self.securityPolicy;
+  104  
+  105      [operation setCompletionBlockWithSuccess:success failure:failure];
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m:
+   29  
+   30  #import <Availability.h>
+   31: #import <Security/Security.h>
+   32  
+   33  #ifdef _SYSTEMCONFIGURATION_H
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/AFNetworking/AFNetworking/AFNetworking.h:
+   29      #import "AFURLRequestSerialization.h"
+   30      #import "AFURLResponseSerialization.h"
+   31:     #import "AFSecurityPolicy.h"
+   32      #import "AFNetworkReachabilityManager.h"
+   33  
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h:
+    1: // AFSecurity.h
+    2  //
+    3  // Copyright (c) 2013-2014 AFNetworking (http://afnetworking.com)
+    .
+   22  
+   23  #import <Foundation/Foundation.h>
+   24: #import <Security/Security.h>
+   25  
+   26  typedef NS_ENUM(NSUInteger, AFSSLPinningMode) {
+   ..
+   31  
+   32  /**
+   33:  `AFSecurityPolicy` evaluates server trust against pinned X.509 certificates and public keys over secure connections.
+   34   
+   35   Adding pinned SSL certificates to your app helps prevent man-in-the-middle attacks and other vulnerabilities. Applications dealing with sensitive customer data or financial information are strongly encouraged to route all communication over an HTTPS connection with SSL pinning configured and enabled.
+   36   */
+   37: @interface AFSecurityPolicy : NSObject
+   38  
+   39  /**
+   ..
+   63  
+   64  ///-----------------------------------------
+   65: /// @name Getting Specific Security Policies
+   66  ///-----------------------------------------
+   67  
+   68  /**
+   69:  Returns the shared default security policy, which does not accept invalid certificates, and does not validate against pinned certificates or public keys.
+   70   
+   71:  @return The default security policy.
+   72   */
+   73  + (instancetype)defaultPolicy;
+   ..
+   78  
+   79  /**
+   80:  Creates and returns a security policy with the specified pinning mode.
+   81   
+   82   @param pinningMode The SSL pinning mode.
+   83   
+   84:  @return A new security policy.
+   85   */
+   86  + (instancetype)policyWithPinningMode:(AFSSLPinningMode)pinningMode;
+   ..
+   91  
+   92  /**
+   93:  Whether or not the specified server trust should be accepted, based on the security policy.
+   94  
+   95   This method should be used when responding to an authentication challenge from a server.
+   ..
+  104  
+  105  /**
+  106:  Whether or not the specified server trust should be accepted, based on the security policy. 
+  107   
+  108   This method should be used when responding to an authentication challenge from a server.
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m:
+    1: // AFSecurity.m
+    2  //
+    3  // Copyright (c) 2013-2014 AFNetworking (http://afnetworking.com)
+    .
+   21  // THE SOFTWARE.
+   22  
+   23: #import "AFSecurityPolicy.h"
+   24  
+   25  // Equivalent of macro in <AssertMacros.h>, without causing compiler warning:
+   ..
+  168  #pragma mark -
+  169  
+  170: @interface AFSecurityPolicy()
+  171  @property (readwrite, nonatomic, strong) NSArray *pinnedPublicKeys;
+  172  @end
+  173  
+  174: @implementation AFSecurityPolicy
+  175  
+  176  + (NSArray *)defaultPinnedCertificates {
+  ...
+  194  
+  195  + (instancetype)defaultPolicy {
+  196:     AFSecurityPolicy *securityPolicy = [[self alloc] init];
+  197:     securityPolicy.SSLPinningMode = AFSSLPinningModeNone;
+  198  
+  199:     return securityPolicy;
+  200  }
+  201  
+  202  + (instancetype)policyWithPinningMode:(AFSSLPinningMode)pinningMode {
+  203:     AFSecurityPolicy *securityPolicy = [[self alloc] init];
+  204:     securityPolicy.SSLPinningMode = pinningMode;
+  205:     securityPolicy.validatesDomainName = YES;
+  206:     [securityPolicy setPinnedCertificates:[self defaultPinnedCertificates]];
+  207  
+  208:     return securityPolicy;
+  209  }
+  210  
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h:
+   26  #import "AFURLRequestSerialization.h"
+   27  #import "AFURLResponseSerialization.h"
+   28: #import "AFSecurityPolicy.h"
+   29  
+   30  /**
+   ..
+   61   ## SSL Pinning
+   62   
+   63:  Relying on the CA trust model to validate SSL certificates exposes your app to security vulnerabilities, such as man-in-the-middle attacks. For applications that connect to known servers, SSL certificate pinning provides an increased level of security, by checking server certificate validity against those specified in the app bundle.
+   64   
+   65   SSL with certificate pinning is strongly recommended for any application that transmits sensitive information to an external webservice.
+   ..
+  157  
+  158  ///-------------------------------
+  159: /// @name Managing Security Policy
+  160  ///-------------------------------
+  161  
+  162  /**
+  163:  The security policy used to evaluate server trust for secure connections.
+  164   */
+  165: @property (nonatomic, strong) AFSecurityPolicy *securityPolicy;
+  166  
+  167  ///------------------------
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m:
+  201      self.shouldUseCredentialStorage = YES;
+  202  
+  203:     self.securityPolicy = [AFSecurityPolicy defaultPolicy];
+  204  
+  205      return self;
+  ...
+  592  
+  593      if ([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust]) {
+  594:         if ([self.securityPolicy evaluateServerTrust:challenge.protectionSpace.serverTrust forDomain:challenge.protectionSpace.host]) {
+  595              NSURLCredential *credential = [NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust];
+  596              [[challenge sender] useCredential:credential forAuthenticationChallenge:challenge];
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h:
+   25  #import "AFURLResponseSerialization.h"
+   26  #import "AFURLRequestSerialization.h"
+   27: #import "AFSecurityPolicy.h"
+   28  #import "AFNetworkReachabilityManager.h"
+   29  
+   ..
+  103  
+  104  ///-------------------------------
+  105: /// @name Managing Security Policy
+  106  ///-------------------------------
+  107  
+  108  /**
+  109:  The security policy used by created request operations to evaluate server trust for secure connections. `AFURLSessionManager` uses the `defaultPolicy` unless otherwise specified.
+  110   */
+  111: @property (nonatomic, strong) AFSecurityPolicy *securityPolicy;
+  112  
+  113  ///--------------------------------------
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m:
+  304      self.responseSerializer = [AFJSONResponseSerializer serializer];
+  305  
+  306:     self.securityPolicy = [AFSecurityPolicy defaultPolicy];
+  307  
+  308      self.reachabilityManager = [AFNetworkReachabilityManager sharedManager];
+  ...
+  758      } else {
+  759          if ([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust]) {
+  760:             if ([self.securityPolicy evaluateServerTrust:challenge.protectionSpace.serverTrust forDomain:challenge.protectionSpace.host]) {
+  761                  credential = [NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust];
+  762                  if (credential) {
+  ...
+  809      } else {
+  810          if ([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust]) {
+  811:             if ([self.securityPolicy evaluateServerTrust:challenge.protectionSpace.serverTrust forDomain:challenge.protectionSpace.host]) {
+  812                  disposition = NSURLSessionAuthChallengeUseCredential;
+  813                  credential = [NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust];
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/Headers/Private/AFNetworking/AFHTTPRequestOperationManager.h:
+   34  #import "AFURLResponseSerialization.h"
+   35  #import "AFURLRequestSerialization.h"
+   36: #import "AFSecurityPolicy.h"
+   37  #import "AFNetworkReachabilityManager.h"
+   38  
+   39  /**
+   40:  `AFHTTPRequestOperationManager` encapsulates the common patterns of communicating with a web application over HTTP, including request creation, response serialization, network reachability monitoring, and security, as well as request operation management.
+   41  
+   42   ## Subclassing Notes
+   ..
+  128  
+  129  ///-------------------------------
+  130: /// @name Managing Security Policy
+  131  ///-------------------------------
+  132  
+  133  /**
+  134:  The security policy used by created request operations to evaluate server trust for secure connections. `AFHTTPRequestOperationManager` uses the `defaultPolicy` unless otherwise specified.
+  135   */
+  136: @property (nonatomic, strong) AFSecurityPolicy *securityPolicy;
+  137  
+  138  ///------------------------------------
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/Headers/Private/AFNetworking/AFNetworking.h:
+   29      #import "AFURLRequestSerialization.h"
+   30      #import "AFURLResponseSerialization.h"
+   31:     #import "AFSecurityPolicy.h"
+   32      #import "AFNetworkReachabilityManager.h"
+   33  
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/Headers/Private/AFNetworking/AFSecurityPolicy.h:
+    1: // AFSecurity.h
+    2  //
+    3  // Copyright (c) 2013-2014 AFNetworking (http://afnetworking.com)
+    .
+   22  
+   23  #import <Foundation/Foundation.h>
+   24: #import <Security/Security.h>
+   25  
+   26  typedef NS_ENUM(NSUInteger, AFSSLPinningMode) {
+   ..
+   31  
+   32  /**
+   33:  `AFSecurityPolicy` evaluates server trust against pinned X.509 certificates and public keys over secure connections.
+   34   
+   35   Adding pinned SSL certificates to your app helps prevent man-in-the-middle attacks and other vulnerabilities. Applications dealing with sensitive customer data or financial information are strongly encouraged to route all communication over an HTTPS connection with SSL pinning configured and enabled.
+   36   */
+   37: @interface AFSecurityPolicy : NSObject
+   38  
+   39  /**
+   ..
+   63  
+   64  ///-----------------------------------------
+   65: /// @name Getting Specific Security Policies
+   66  ///-----------------------------------------
+   67  
+   68  /**
+   69:  Returns the shared default security policy, which does not accept invalid certificates, and does not validate against pinned certificates or public keys.
+   70   
+   71:  @return The default security policy.
+   72   */
+   73  + (instancetype)defaultPolicy;
+   ..
+   78  
+   79  /**
+   80:  Creates and returns a security policy with the specified pinning mode.
+   81   
+   82   @param pinningMode The SSL pinning mode.
+   83   
+   84:  @return A new security policy.
+   85   */
+   86  + (instancetype)policyWithPinningMode:(AFSSLPinningMode)pinningMode;
+   ..
+   91  
+   92  /**
+   93:  Whether or not the specified server trust should be accepted, based on the security policy.
+   94  
+   95   This method should be used when responding to an authentication challenge from a server.
+   ..
+  104  
+  105  /**
+  106:  Whether or not the specified server trust should be accepted, based on the security policy. 
+  107   
+  108   This method should be used when responding to an authentication challenge from a server.
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/Headers/Private/AFNetworking/AFURLConnectionOperation.h:
+   26  #import "AFURLRequestSerialization.h"
+   27  #import "AFURLResponseSerialization.h"
+   28: #import "AFSecurityPolicy.h"
+   29  
+   30  /**
+   ..
+   61   ## SSL Pinning
+   62   
+   63:  Relying on the CA trust model to validate SSL certificates exposes your app to security vulnerabilities, such as man-in-the-middle attacks. For applications that connect to known servers, SSL certificate pinning provides an increased level of security, by checking server certificate validity against those specified in the app bundle.
+   64   
+   65   SSL with certificate pinning is strongly recommended for any application that transmits sensitive information to an external webservice.
+   ..
+  157  
+  158  ///-------------------------------
+  159: /// @name Managing Security Policy
+  160  ///-------------------------------
+  161  
+  162  /**
+  163:  The security policy used to evaluate server trust for secure connections.
+  164   */
+  165: @property (nonatomic, strong) AFSecurityPolicy *securityPolicy;
+  166  
+  167  ///------------------------
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/Headers/Private/AFNetworking/AFURLSessionManager.h:
+   25  #import "AFURLResponseSerialization.h"
+   26  #import "AFURLRequestSerialization.h"
+   27: #import "AFSecurityPolicy.h"
+   28  #import "AFNetworkReachabilityManager.h"
+   29  
+   ..
+  103  
+  104  ///-------------------------------
+  105: /// @name Managing Security Policy
+  106  ///-------------------------------
+  107  
+  108  /**
+  109:  The security policy used by created request operations to evaluate server trust for secure connections. `AFURLSessionManager` uses the `defaultPolicy` unless otherwise specified.
+  110   */
+  111: @property (nonatomic, strong) AFSecurityPolicy *securityPolicy;
+  112  
+  113  ///--------------------------------------
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/Pods.xcodeproj/project.pbxproj:
+  777  			<string>PBXGroup</string>
+  778  			<key>name</key>
+  779: 			<string>Security</string>
+  780  			<key>sourceTree</key>
+  781  			<string>&lt;group&gt;</string>
+  ...
+ 1627  			<string>sourcecode.c.objc</string>
+ 1628  			<key>name</key>
+ 1629: 			<string>AFSecurityPolicy.m</string>
+ 1630  			<key>path</key>
+ 1631: 			<string>AFNetworking/AFSecurityPolicy.m</string>
+ 1632  			<key>sourceTree</key>
+ 1633  			<string>&lt;group&gt;</string>
+ ....
+ 1788  			<string>sourcecode.c.h</string>
+ 1789  			<key>name</key>
+ 1790: 			<string>AFSecurityPolicy.h</string>
+ 1791  			<key>path</key>
+ 1792: 			<string>AFNetworking/AFSecurityPolicy.h</string>
+ 1793  			<key>sourceTree</key>
+ 1794  			<string>&lt;group&gt;</string>
+ ....
+ 3465  			<string>wrapper.framework</string>
+ 3466  			<key>name</key>
+ 3467: 			<string>Security.framework</string>
+ 3468  			<key>path</key>
+ 3469: 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework</string>
+ 3470  			<key>sourceTree</key>
+ 3471  			<string>DEVELOPER_DIR</string>
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/Target Support Files/AFNetworking/AFNetworking-umbrella.h:
+    6  #import "AFNetworking.h"
+    7  #import "AFNetworkReachabilityManager.h"
+    8: #import "AFSecurityPolicy.h"
+    9  #import "AFURLConnectionOperation.h"
+   10  #import "AFURLRequestSerialization.h"
+   ..
+   17  #import "AFHTTPSessionManager.h"
+   18  #import "AFNetworkReachabilityManager.h"
+   19: #import "AFSecurityPolicy.h"
+   20  #import "AFURLRequestSerialization.h"
+   21  #import "AFURLResponseSerialization.h"
+
+/Users/xyuan1/Git/Learning/OraChat/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig:
+    1  GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+    2  HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/AFNetworking" "${PODS_ROOT}/Headers/Public"
+    3: OTHER_LDFLAGS = -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
+    4  PODS_ROOT = ${SRCROOT}
+    5  SKIP_INSTALL = YES
+
+124 matches across 24 files
+
+
+Searching 123 files for "security"
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Info.plist:
+   23  	<key>LSRequiresIPhoneOS</key>
+   24  	<true/>
+   25: 	<key>NSAppTransportSecurity</key>
+   26  	<dict>
+   27  		<key>NSAllowsArbitraryLoads</key>
+
+1 match in 1 file
+
+
+Searching 123 files for "simon"
+
+0 matches
+
+Searching 123 files for "/*"
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/BlockObserver.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    9  import Foundation
+   10  
+   11: /**
+   12      The `BlockObserver` is a way to attach arbitrary blocks to significant events
+   13      in an `Operation`'s lifecycle.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/BlockOperation.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   16      private let block: OperationBlock?
+   17      
+   18:     /**
+   19          The designated initializer.
+   20          
+   ..
+   30      }
+   31      
+   32:     /**
+   33          A convenience initializer to execute a block on the main queue.
+   34          
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/CalendarCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   43  }
+   44  
+   45: /**
+   46      `EKEventStore` takes a while to initialize, so we should create
+   47      one and then keep it around for future use, instead of creating
+   ..
+   50  private let SharedEventStore = EKEventStore()
+   51  
+   52: /**
+   53      A private `Operation` that will request access to the user's Calendar/Reminders,
+   54      if it has not already been granted.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/CKContainer+Operations.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   10  
+   11  extension CKContainer {
+   12:     /**
+   13          Verify that the current user has certain permissions for the `CKContainer`,
+   14          and potentially requesting the permission if necessary.
+   ..
+   30  }
+   31  
+   32: /**
+   33      Make these helper functions instead of helper methods, so we don't pollute
+   34      `CKContainer`.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/CloudCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   15      static let containerKey = "CKContainer"
+   16      
+   17:     /*
+   18          CloudKit has no problem handling multiple operations at the same time
+   19          so we will allow operations that use CloudKit to be concurrent with each
+   ..
+   26      let permission: CKApplicationPermissions
+   27      
+   28:     /**
+   29          - parameter container: the `CKContainer` to which you need access.
+   30          - parameter permission: the `CKApplicationPermissions` you need for the
+   ..
+   59  }
+   60  
+   61: /**
+   62      This operation asks the user for permission to use CloudKit, if necessary.
+   63      If permission has already been granted, this operation will quickly finish.
+   ..
+   73          
+   74          if permission != [] {
+   75:             /*
+   76                  Requesting non-zero permissions means that this potentially presents
+   77                  an alert, so it should not run at the same time as anything else
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/DelayOperation.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    9  import Foundation
+   10  
+   11: /**
+   12      `DelayOperation` is an `Operation` that will simply wait for a given time
+   13      interval, or until a specific `NSDate`.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/Dictionary+Operations.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    8  
+    9  extension Dictionary {
+   10:     /**
+   11          It's not uncommon to want to turn a sequence of values into a dictionary,
+   12          where each value is keyed by some unique identifier. This initializer will
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/ExclusivityController.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    9  import Foundation
+   10  
+   11: /**
+   12      `ExclusivityController` is a singleton to keep track of all the in-flight
+   13      `Operation` instances that have declared themselves as requiring mutual exclusivity.
+   ..
+   22      
+   23      private init() {
+   24:         /*
+   25              A private initializer effectively prevents any other part of the app
+   26              from accidentally creating an instance.
+   ..
+   30      /// Registers an operation as being mutually exclusive
+   31      func addOperation(operation: Operation, categories: [String]) {
+   32:         /*
+   33              This needs to be a synchronous operation.
+   34              If this were async, then we might not get around to adding dependencies
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/GroupOperation.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    9  import Foundation
+   10  
+   11: /**
+   12      A subclass of `Operation` that executes zero or more operations as part of its
+   13      own execution. This class of operation is very useful for abstracting several
+   ..
+   59      }
+   60      
+   61:     /**
+   62          Note that some part of execution has produced an error.
+   63          Errors aggregated through this method will be included in the final array
+   ..
+   77          assert(!finishingOperation.finished && !finishingOperation.executing, "cannot add new operations to a group after the group has completed")
+   78          
+   79:         /*
+   80              Some operation in this group has produced a new operation to execute.
+   81              We want to allow that operation to execute before the group completes,
+   ..
+   86          }
+   87          
+   88:         /*
+   89              All operations should be dependent on the "startingOperation".
+   90              This way, we can guarantee that the conditions for other operations
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/HealthCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   12  import UIKit
+   13  
+   14: /**
+   15      A condition to indicate an `Operation` requires access to the user's health
+   16      data.
+   ..
+   25      let readTypes: Set<HKSampleType>
+   26      
+   27:     /**
+   28          The designated initializer.
+   29          
+   ..
+   58  
+   59          let store = HKHealthStore()
+   60:         /*
+   61              Note that we cannot check to see if access to the "typesToRead"
+   62              has been granted or not, as that is sensitive data. For example,
+   ..
+   92  }
+   93  
+   94: /**
+   95      A private `Operation` that will request access to the user's health data, if
+   96      it has not already been granted.
+   ..
+  114          dispatch_async(dispatch_get_main_queue()) {
+  115              let store = HKHealthStore()
+  116:             /*
+  117                  This method is smart enough to not re-prompt for access if access
+  118                  has already been granted.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/LocationCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   11  /// A condition for verifying access to the user's location.
+   12  struct LocationCondition: OperationCondition {
+   13:     /**
+   14          Declare a new enum instead of using `CLAuthorizationStatus`, because that
+   15          enum has more case values than are necessary for our purposes.
+   ..
+   48  
+   49              case (true, .WhenInUse, .AuthorizedWhenInUse):
+   50:                 /*
+   51                      The service is enabled, and we have and need "WhenInUse"
+   52                      permission -> condition satisfied.
+   ..
+   55  
+   56              default:
+   57:                 /*
+   58                      Anything else is an error. Maybe location services are disabled,
+   59                      or maybe we need "Always" permission but only have "WhenInUse",
+   ..
+   79  }
+   80  
+   81: /**
+   82      A private `Operation` that will request permission to access the user's location,
+   83      if permission has not already been granted.
+   ..
+   90          self.usage = usage
+   91          super.init()
+   92:         /*
+   93              This is an operation that potentially presents an alert so it should
+   94              be mutually exclusive with anything else that presents an alert.
+   ..
+   98      
+   99      override func execute() {
+  100:         /*
+  101              Not only do we need to handle the "Not Determined" case, but we also
+  102              need to handle the "upgrade" (.WhenInUse -> .Always) case.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/LocationOperation.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   10  import CoreLocation
+   11  
+   12: /**
+   13      `LocationOperation` is an `Operation` subclass to do a "one-shot" request to
+   14      get the user's current location, with a desired accuracy. This operation will
+   ..
+   35      override func execute() {
+   36          dispatch_async(dispatch_get_main_queue()) {
+   37:             /*
+   38                  `CLLocationManager` needs to be created on a thread with an active
+   39                  run loop, so for simplicity we do this on the main queue.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/MutuallyExclusive.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   30  }
+   31  
+   32: /**
+   33      The purpose of this enum is to simply provide a non-constructible
+   34      type to be used with `MutuallyExclusive<T>`.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/NegatedCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    9  import Foundation
+   10  
+   11: /**
+   12      A simple condition that negates the evaluation of another condition.
+   13      This is useful (for example) if you want to only execute an operation if the
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/NoCancelledDependencies.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    9  import Foundation
+   10  
+   11: /**
+   12      A condition that specifies that every dependency must have succeeded.
+   13      If any dependency was cancelled, the target operation will be cancelled as
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/NSLock+Operations.swift:
+    1: /*
+    2      Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3      See LICENSE.txt for this sample’s licensing information
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/NSOperation+Operations.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   10  
+   11  extension NSOperation {
+   12:     /**
+   13          Add a completion block to be executed after the `NSOperation` enters the
+   14          "finished" state.
+   ..
+   16      func addCompletionBlock(block: Void -> Void) {
+   17          if let existing = completionBlock {
+   18:             /*
+   19                  If we already have a completion block, we construct a new one by
+   20                  chaining them together.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/Operation.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    9  import Foundation
+   10  
+   11: /**
+   12      The subclass of `NSOperation` from which all other operations should be derived.
+   13      This class adds both Conditions and Observers, which allow the operation to define
+   ..
+   42          case EvaluatingConditions
+   43          
+   44:         /**
+   45              The `Operation`'s conditions have all been satisfied, and it is ready
+   46              to execute.
+   ..
+   51          case Executing
+   52          
+   53:         /**
+   54              Execution of the `Operation` has finished, but it has not yet notified
+   55              the queue of this.
+   ..
+   82      }
+   83      
+   84:     /**
+   85          Indicates that the Operation can now begin to evaluate readiness conditions,
+   86          if appropriate.
+   ..
+  104      
+  105          set(newState) {
+  106:             /*
+  107                  It's important to note that the KVO notifications are NOT called from inside
+  108                  the lock. If they were, the app would deadlock, because in the middle of
+  ...
+  241      }
+  242      
+  243:     /**
+  244          `execute()` is the entry point of execution for all `Operation` subclasses.
+  245          If you subclass `Operation` and wish to customize its execution, you would
+  ...
+  274      // MARK: Finishing
+  275      
+  276:     /**
+  277          Most operations may finish with a single error, if they have one at all.
+  278          This is a convenience method to simplify calling the actual `finish()`
+  ...
+  291      }
+  292      
+  293:     /**
+  294          A private property to ensure we only notify the observers once that the
+  295          operation has finished.
+  ...
+  312      }
+  313      
+  314:     /**
+  315          Subclasses may override `finished(_:)` if they wish to react to the operation
+  316          finishing with errors. For example, the `LoadModelOperation` implements
+  ...
+  323      
+  324      override final func waitUntilFinished() {
+  325:         /*
+  326              Waiting on operations is almost NEVER the right thing to do. It is
+  327              usually superior to use proper locking constructs, such as `dispatch_semaphore_t`
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/OperationCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   11  let OperationConditionKey = "OperationCondition"
+   12  
+   13: /**
+   14      A protocol for defining conditions that must be satisfied in order for an
+   15      operation to begin execution.
+   16  */
+   17  protocol OperationCondition {
+   18:     /**
+   19          The name of the condition. This is used in userInfo dictionaries of `.ConditionFailed`
+   20          errors as the value of the `OperationConditionKey` key.
+   ..
+   22      static var name: String { get }
+   23      
+   24:     /**
+   25          Specifies whether multiple instances of the conditionalized operation may
+   26          be executing simultaneously.
+   ..
+   28      static var isMutuallyExclusive: Bool { get }
+   29      
+   30:     /**
+   31          Some conditions may have the ability to satisfy the condition if another
+   32          operation is executed first. Use this method to return an operation that
+   ..
+   46  }
+   47  
+   48: /**
+   49      An enum to indicate whether an `OperationCondition` was satisfied, or if it
+   50      failed with an error.
+   ..
+   97              var failures = results.flatMap { $0?.error }
+   98              
+   99:             /*
+  100                  If any of the conditions caused this operation to be cancelled,
+  101                  check for that.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/OperationErrors.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/OperationObserver.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    9  import Foundation
+   10  
+   11: /**
+   12      The protocol that types may implement if they wish to be notified of significant
+   13      operation lifecycle events.
+   ..
+   21      func operation(operation: Operation, didProduceOperation newOperation: NSOperation)
+   22      
+   23:     /**
+   24          Invoked as an `Operation` finishes, along with any errors produced during
+   25          execution (or readiness evaluation).
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/OperationQueue.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    9  import Foundation
+   10  
+   11: /**
+   12      The delegate of an `OperationQueue` can respond to `Operation` lifecycle
+   13      events by implementing these methods.
+   ..
+   24  }
+   25  
+   26: /**
+   27      `OperationQueue` is an `NSOperationQueue` subclass that implements a large
+   28      number of "extra features" related to the `Operation` class:
+   ..
+   62              }
+   63              
+   64:             /*
+   65                  With condition dependencies added, we can now see if this needs
+   66                  dependencies to enforce mutual exclusivity.
+   ..
+   83              }
+   84              
+   85:             /*
+   86                  Indicate to the operation that we've finished our extra work on it
+   87                  and it's now it a state where it can proceed with evaluating conditions,
+   ..
+   91          }
+   92          else {
+   93:             /*
+   94                  For regular `NSOperation`s, we'll manually call out to the queue's
+   95                  delegate we don't want to just capture "operation" because that
+   ..
+  108      
+  109      override func addOperations(operations: [NSOperation], waitUntilFinished wait: Bool) {
+  110:         /*
+  111              The base implementation of this method does not call `addOperation()`,
+  112              so we'll call it ourselves.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/PassbookCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   20      
+   21      func dependencyForOperation(operation: Operation) -> NSOperation? {
+   22:         /*
+   23              There's nothing you can do to make Passbook available if it's not
+   24              on your device.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/PhotosCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   38  }
+   39  
+   40: /**
+   41      A private `Operation` that will request access to the user's Photos, if it
+   42      has not already been granted.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/ReachabilityCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   10  import SystemConfiguration
+   11  
+   12: /**
+   13      This is a condition that performs a very high-level reachability check.
+   14      It does *not* perform a long-running reachability check, nor does it respond to changes in reachability.
+   ..
+   71                      var flags: SCNetworkReachabilityFlags = []
+   72                      if SCNetworkReachabilityGetFlags(ref, &flags) != false {
+   73:                         /*
+   74                              Note that this is a very basic "is reachable" check.
+   75                              Your app may choose to allow for other considerations,
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/RemoteNotificationCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   47      
+   48      func evaluateForOperation(operation: Operation, completion: OperationConditionResult -> Void) {
+   49:         /*
+   50              Since evaluation requires executing an operation, use a private operation
+   51              queue.
+   ..
+   68  }
+   69  
+   70: /**
+   71      A private `Operation` to request a push notification token from the `UIApplication`.
+   72      
+   ..
+   89          super.init()
+   90          
+   91:         /*
+   92              This operation cannot run at the same time as any other remote notification
+   93              permission operation.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/SilentCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    9  import Foundation
+   10  
+   11: /**
+   12      A simple condition that causes another condition to not enqueue its dependency.
+   13      This is useful (for example) when you want to verify that you have access to
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/TimeoutObserver.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+    9  import Foundation
+   10  
+   11: /**
+   12      `TimeoutObserver` is a way to make an `Operation` automatically time out and
+   13      cancel after a specified time interval.
+   ..
+   33  
+   34          dispatch_after(when, dispatch_get_global_queue(QOS_CLASS_DEFAULT, 0)) {
+   35:             /*
+   36                  Cancel the operation if it hasn't finished and hasn't already
+   37                  been cancelled.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/UIUserNotifications+Operations.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   25      }
+   26      
+   27:     /**
+   28          Merge two Settings objects together. `UIUserNotificationCategories` with
+   29          the same identifier are considered equal.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/URLSessionTaskOperation.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   11  private var URLSessionTaksOperationKVOContext = 0
+   12  
+   13: /**
+   14      `URLSessionTaskOperation` is an `Operation` that lifts an `NSURLSessionTask`
+   15      into an operation.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Operations/UserNotificationCondition.swift:
+    1: /*
+    2  Copyright (C) 2015 Apple Inc. All Rights Reserved.
+    3  See LICENSE.txt for this sample’s licensing information
+    .
+   11  import UIKit
+   12  
+   13: /**
+   14      A condition for verifying that we can present alerts to the user via
+   15      `UILocalNotification` and/or remote notifications.
+   ..
+   34      let behavior: Behavior
+   35      
+   36:     /**
+   37          The designated initializer.
+   38          
+   ..
+   82  }
+   83  
+   84: /**
+   85      A private `Operation` subclass to register a `UIUserNotificationSettings`
+   86      object with a `UIApplication`, prompting the user for permission if necessary.
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Resources/Splash.png:
+    <binary>
+
+109 matches across 32 files
+
+
+Searching 27 files for "/*"
+
+0 matches
+
+Searching 27 files for "//"
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/App Operations/ChatOperation.swift:
+    4  
+    5  class ChatOperation : GroupOperation {
+    6:     //let queryItems = [NSURLQueryItem(name: "chat_id", value: "1"), NSURLQueryItem(name: "page", value: "1"), NSURLQueryItem(name: "limit", value: "20")]
+    7      init(urlPath: String, params: [String: String], sessionManager: URLSessionManager, taskCompletionCallback: (MessageGroup?, NSError?) -> Void) {
+    8          let task = sessionManager.postDataTaskWithURLPath(urlPath, data: params) { (data, response, error) in
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/App Operations/MessageListOperation.swift:
+   50  }
+   51  
+   52: //import Foundation
+   53: //
+   54: //@objc class MessageListOperation : GenericOperation<[String : AnyObject], [Message]> {
+   55: //    
+   56: //    override var URLPath: String {
+   57: //        return "chats/1/messages?page=1&limit=20"
+   58: //    }
+   59: //    
+   60: //    override var operationName: String {
+   61: //        return "Message List"
+   62: //    }
+   63: //    
+   64: //    required  init(sessionManager: URLSessionManager, taskCompletionCallback: ([Message]?) -> Void) {
+   65: //        super.init(sessionManager: sessionManager, taskCompletionCallback: taskCompletionCallback)
+   66: //    }
+   67: //
+   68: //    override func parseJSONData(data: [String : AnyObject]) -> [Message]? {
+   69: //        var groups:[Message] = []
+   70: //        if let result = data["data"] as? [AnyObject] {
+   71: //            if let dataArray = result as? Array<Dictionary<String, AnyObject>>{
+   72: //                for data in dataArray{
+   73: //                    if let mg: Message = Message(dictionary: data) {
+   74: //                        groups.append(mg)
+   75: //                    }
+   76: //                }
+   77: //            }
+   78: //            return groups
+   79: //        }
+   80: //        return nil
+   81: //    }
+   82: //}
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Networking/URLSessionManager.swift:
+    2  import UIKit
+    3  
+    4: let ORABaseUrlEnvironment = "http://private-anon-fe67dd175d-oracodechallenge.apiary-proxy.com"
+    5  
+    6  class URLSessionManager {
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Model/Message.swift:
+   38  }
+   39  
+   40: //"id": 1,
+   41: //"chat_id": 1,
+   42: //"user_id": 1,
+   43: //"message": "Hey there!",
+   44: //"created": "2016-07-12T04:30:21Z",
+   45: //"user": {
+   46: //    "id": 1,
+   47: //    "name": "Andre"
+   48: //}
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/Message/ORAMessageViewController.h:
+    1  #import <UIKit/UIKit.h>
+    2: //#import "OraChat-Swift.h"
+    3  
+    4  @interface ORAMessageViewController : UITableViewController
+    5  @property(assign, nonatomic) NSInteger chatGroupID;
+    6: //@property(copy, nonatomic) MessageGroup *chatGroupID;
+    7  @end
+    8  
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/Message/ORAMessageViewController.m:
+   38      button.backgroundColor = [UIColor whiteColor];
+   39      button.outlineWidth = 0.0f;
+   40:     //button.imagePadding = 15.0f;
+   41      button.verticalOffset = -50.0f;
+   42      [self.tableView setFloatingButtonView:button];
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/User/ORAAccountViewController.h:
+    1: //
+    2: //  ORAAccountViewController.h
+    3: //  OraChat
+    4: //
+    5: //  Created by Xinfang Yuan on 9/14/16.
+    6: //  Copyright © 2016 Xinfang Yuan. All rights reserved.
+    7: //
+    8  
+    9  #import <UIKit/UIKit.h>
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/User/ORAAccountViewController.m:
+    1: //
+    2: //  ORAAccountViewController.m
+    3: //  OraChat
+    4: //
+    5: //  Created by Xinfang Yuan on 9/14/16.
+    6: //  Copyright © 2016 Xinfang Yuan. All rights reserved.
+    7: //
+    8  
+    9  #import "ORAAccountViewController.h"
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/User/ORAUserLoginViewController.h:
+    2  
+    3  @interface ORAUserLoginViewController : UIViewController
+    4: //@property (nonatomic, copy) void (^successLoginBlock)();
+    5  @end
+    6  
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/User/ORAUserLoginViewController.m:
+   63      }];
+   64      [loginOp execute];
+   65: //    [[NSNotificationCenter defaultCenter] postNotificationName:@"eventUserLogin" object:self userInfo:nil];
+   66  }
+   67  
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/User/ORAUserRegisterViewController.m:
+   62      }
+   63      
+   64: //    [[NSNotificationCenter defaultCenter] postNotificationName:@"eventUserLogin" object:self userInfo:nil];
+   65      UserOperation *registerOp = [[UserOperation alloc] initWithEmail:email password:password username:name taskCompletionCallback:^(User * _Nullable user, NSError * _Nullable error) {
+   66          if (error == nil) {
+
+62 matches across 11 files
+
+
+Searching 27 files for "//"
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/App Operations/ChatOperation.swift:
+    4  
+    5  class ChatOperation : GroupOperation {
+    6:     //let queryItems = [NSURLQueryItem(name: "chat_id", value: "1"), NSURLQueryItem(name: "page", value: "1"), NSURLQueryItem(name: "limit", value: "20")]
+    7      init(urlPath: String, params: [String: String], sessionManager: URLSessionManager, taskCompletionCallback: (MessageGroup?, NSError?) -> Void) {
+    8          let task = sessionManager.postDataTaskWithURLPath(urlPath, data: params) { (data, response, error) in
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/App Operations/MessageListOperation.swift:
+   50  }
+   51  
+   52: //import Foundation
+   53: //
+   54: //@objc class MessageListOperation : GenericOperation<[String : AnyObject], [Message]> {
+   55: //    
+   56: //    override var URLPath: String {
+   57: //        return "chats/1/messages?page=1&limit=20"
+   58: //    }
+   59: //    
+   60: //    override var operationName: String {
+   61: //        return "Message List"
+   62: //    }
+   63: //    
+   64: //    required  init(sessionManager: URLSessionManager, taskCompletionCallback: ([Message]?) -> Void) {
+   65: //        super.init(sessionManager: sessionManager, taskCompletionCallback: taskCompletionCallback)
+   66: //    }
+   67: //
+   68: //    override func parseJSONData(data: [String : AnyObject]) -> [Message]? {
+   69: //        var groups:[Message] = []
+   70: //        if let result = data["data"] as? [AnyObject] {
+   71: //            if let dataArray = result as? Array<Dictionary<String, AnyObject>>{
+   72: //                for data in dataArray{
+   73: //                    if let mg: Message = Message(dictionary: data) {
+   74: //                        groups.append(mg)
+   75: //                    }
+   76: //                }
+   77: //            }
+   78: //            return groups
+   79: //        }
+   80: //        return nil
+   81: //    }
+   82: //}
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/Networking/URLSessionManager.swift:
+    2  import UIKit
+    3  
+    4: let ORABaseUrlEnvironment = "http://private-anon-fe67dd175d-oracodechallenge.apiary-proxy.com"
+    5  
+    6  class URLSessionManager {
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/Message/ORAMessageViewController.h:
+    1  #import <UIKit/UIKit.h>
+    2: //#import "OraChat-Swift.h"
+    3  
+    4  @interface ORAMessageViewController : UITableViewController
+    5  @property(assign, nonatomic) NSInteger chatGroupID;
+    6: //@property(copy, nonatomic) MessageGroup *chatGroupID;
+    7  @end
+    8  
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/Message/ORAMessageViewController.m:
+   38      button.backgroundColor = [UIColor whiteColor];
+   39      button.outlineWidth = 0.0f;
+   41      button.verticalOffset = -50.0f;
+   42      [self.tableView setFloatingButtonView:button];
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/User/ORAAccountViewController.h:
+    1: //
+    2: //  ORAAccountViewController.h
+    3: //  OraChat
+    4: //
+    5: //  Created by Xinfang Yuan on 9/14/16.
+    6: //  Copyright © 2016 Xinfang Yuan. All rights reserved.
+    7: //
+    8  
+    9  #import <UIKit/UIKit.h>
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/User/ORAAccountViewController.m:
+    1: //
+    2: //  ORAAccountViewController.m
+    3: //  OraChat
+    4: //
+    5: //  Created by Xinfang Yuan on 9/14/16.
+    6: //  Copyright © 2016 Xinfang Yuan. All rights reserved.
+    7: //
+    8  
+    9  #import "ORAAccountViewController.h"
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/User/ORAUserLoginViewController.h:
+    2  
+    3  @interface ORAUserLoginViewController : UIViewController
+    5  @end
+    6  
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/User/ORAUserLoginViewController.m:
+   63      }];
+   64      [loginOp execute];
+   65: //    [[NSNotificationCenter defaultCenter] postNotificationName:@"eventUserLogin" object:self userInfo:nil];
+   66  }
+   67  
+
+/Users/xyuan1/Git/Learning/OraChat/OraChat/ViewController/User/ORAUserRegisterViewController.m:
+   62      }
+   63      
+   64: //    [[NSNotificationCenter defaultCenter] postNotificationName:@"eventUserLogin" object:self userInfo:nil];
+   65      UserOperation *registerOp = [[UserOperation alloc] initWithEmail:email password:password username:name taskCompletionCallback:^(User * _Nullable user, NSError * _Nullable error) {
+   66          if (error == nil) {
+
+53 matches across 10 files
