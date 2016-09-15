@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-screen" translatesAutoresizingMaskIntoConstraints="NO" id="8tu-Qx-ATz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage" translatesAutoresizingMaskIntoConstraints="NO" id="8tu-Qx-ATz">
                                 <rect key="frame" x="224" y="269" width="152" height="62"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="152" id="Csd-Np-BZY"/>
@@ -46,6 +46,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="splash-screen" width="701" height="153"/>
+        <image name="launchImage" width="152" height="62"/>
     </resources>
 </document>
