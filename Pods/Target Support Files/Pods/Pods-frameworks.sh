@@ -87,9 +87,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/AFNetworking.framework"
   install_framework "Pods/OCMock.framework"
   install_framework "Pods/ProgressHUD.framework"
+  install_framework "Pods/SAMKeychain.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/AFNetworking.framework"
   install_framework "Pods/OCMock.framework"
   install_framework "Pods/ProgressHUD.framework"
+  install_framework "Pods/SAMKeychain.framework"
 fi

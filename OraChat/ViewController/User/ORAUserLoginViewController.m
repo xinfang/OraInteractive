@@ -2,7 +2,7 @@
 #import "ProgressHUD.h"
 #import "AppDelegate.h"
 #import "NSString+Utilities.h"
-#import "ORAUserAuthentication.h"
+#import "ORAAuthenticationManager.h"
 
 @interface ORAUserLoginViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *fieldEmail;
@@ -49,7 +49,7 @@
     
     [ProgressHUD show:nil Interaction:NO];
     UserOperation *loginOp = [[UserOperation alloc] initWithEmail:email password:password taskCompletionCallback:^(User * _Nullable user, NSError * _Nullable error) {
-        [[ORAUserAuthentication sharedInstance] signInSucceed:user password: password error:error];
+        [[ORAAuthenticationManager sharedInstance] onAuthSuccess:user password: self.fieldPassword.text error:error];
     }];
     [loginOp execute];
 //    [self.operationQueue cancelAllOperations];

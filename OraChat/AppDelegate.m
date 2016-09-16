@@ -1,9 +1,6 @@
 #import "AppDelegate.h"
 #import "OraChat-Swift.h"
 
-
-static NSString *const EventUserLogin = @"eventUserLogin";
-
 @interface AppDelegate()
 @end
 
@@ -12,10 +9,9 @@ static NSString *const EventUserLogin = @"eventUserLogin";
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     User *user = [User currentUser];
     if (!user.token) {
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showMainView:) name:EventUserLogin object:nil];
         self.window.rootViewController = [[UIStoryboard storyboardWithName:@"Login" bundle:nil] instantiateViewControllerWithIdentifier:@"ORAUserLogin"];
     } else {
-        [self showMainView:nil];        
+        [self showMainView];        
     }
     return YES;
 }
@@ -40,10 +36,8 @@ static NSString *const EventUserLogin = @"eventUserLogin";
     
 }
 
-- (void)showMainView:(NSNotification *)notification {
-    dispatch_async(dispatch_get_main_queue(), ^{
-         self.window.rootViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ORAMainChat"];
-    });
+- (void)showMainView {
+    self.window.rootViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ORAMainChat"];
 }
 
 @end

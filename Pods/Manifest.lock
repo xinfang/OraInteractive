@@ -22,11 +22,13 @@ PODS:
     - AFNetworking/NSURLSession
   - OCMock (3.1.2)
   - ProgressHUD (2.3)
+  - SAMKeychain (1.5.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.4.1)
   - OCMock (from `https://github.com/erikdoe/ocmock.git`, commit `3f88a5d`)
   - ProgressHUD
+  - SAMKeychain
 
 EXTERNAL SOURCES:
   OCMock:
@@ -42,5 +44,6 @@ SPEC CHECKSUMS:
   AFNetworking: 41d45d2c14219af0fa5addf3cfd433a002c13c9f
   OCMock: dc751bfe315f0ba98b2e54e037bb41010635419e
   ProgressHUD: 0d2afb77bc41997dfff1aafb8617317d858834a9
+  SAMKeychain: 6b04852a20684167aea97bdf8ba12c95d3616376
 
 COCOAPODS: 0.39.0

@@ -3,7 +3,7 @@
 #import "OraChat-Swift.h"
 #import "AppDelegate.h"
 #import "NSString+Utilities.h"
-#import "ORAUserAuthentication.h"
+#import "ORAAuthenticationManager.h"
 
 @interface ORAUserRegisterViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *filedName;
@@ -63,7 +63,7 @@
     }
 
     UserOperation *registerOp = [[UserOperation alloc] initWithEmail:email password:password username:name taskCompletionCallback:^(User * _Nullable user, NSError * _Nullable error) {
-        [[ORAUserAuthentication sharedInstance] signInSucceed:user password: password error:error];
+        [[ORAAuthenticationManager sharedInstance] onAuthSuccess:user password: self.fieldPassword.text error:error];
     }];
     [registerOp execute];
 }

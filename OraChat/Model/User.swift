@@ -1,22 +1,13 @@
 import Foundation
 
-let CurrentUserDataKey = "ora.userdata"
-let CurrentUserPasswordKey = "ora.password"
+let CurrentUserDataKey = "ora.chat.userdata"
 
 @objc class User: NSObject {
     var email: String?
     var name: String?
     var userID: Int?
     var token: String?
-
-    var password: String? {
-        get {
-            return NSUserDefaults.standardUserDefaults().stringForKey(CurrentUserPasswordKey)
-        }
-        set {
-            NSUserDefaults.standardUserDefaults().setObject(newValue, forKey: CurrentUserPasswordKey)
-        }
-    }
+    var password: String?
     
     var dictionary: NSDictionary?
     

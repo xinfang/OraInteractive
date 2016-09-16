@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6626F5D66BB7956E3F02F0F8'
-               BlueprintName = 'ProgressHUD'
+               BlueprintIdentifier = '54D3C2FFEBE105D40A19A76E'
+               BlueprintName = 'SAMKeychain'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'ProgressHUD.framework'>
+               BuildableName = 'SAMKeychain.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

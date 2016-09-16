@@ -122,7 +122,7 @@
                   moduleName = "OraChat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/xyuan1/Git/GitHub/OraChat/OraChat/App%20Operations/ChatOperation.swift"
-                  timestampString = "495670613.184286"
+                  timestampString = "495691432.24804"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "8"
@@ -137,7 +137,7 @@
                   moduleName = "OraChat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/xyuan1/Git/GitHub/OraChat/OraChat/App%20Operations/ChatOperation.swift"
-                  timestampString = "495670613.184463"
+                  timestampString = "495691432.248216"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -257,38 +257,6 @@
             endingLineNumber = "12"
             landmarkName = "waitForElementToAppear(_:timeOut:)"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "OraChat/Model/User.swift"
-            timestampString = "495670612.081582"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "User"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "OraChat/Model/User.swift"
-            timestampString = "495670612.081582"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "User"
-            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
