@@ -1,5 +1,6 @@
 #import "ORAAccountViewController.h"
 #import "OraChat-Swift.h"
+#import "ORAAuthenticationManager.h"
 
 @interface ORAAccountViewController()
 @property (weak, nonatomic) IBOutlet UITextField *fieldName;
@@ -26,10 +27,11 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     User *user = [User currentUser];
+    NSString *password = [ORAAuthenticationManager getPasswordForEmail:user.email];
     self.fieldName.text = user.name;
     self.fieldEmail.text = user.email;
-    self.fieldPassword.text = user.password;
-    self.filedConfirm.text = user.password;
+    self.fieldPassword.text = password;
+    self.filedConfirm.text = password;
 }
 
 - (void)saveUser {

@@ -23,13 +23,17 @@ static NSString * const EventUserAuthSuccess = @"eventUserAuthSuccess";
             [ProgressHUD dismiss];
             [User setCurrentUser:user];
             [User currentUser].password = password;
-            [SAMKeychain setPassword:password forService:OraChatService account:password];
+            [SAMKeychain setPassword:password forService:OraChatService account:user.email];
             AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
             [delegate showMainView];
         } else {
             [ProgressHUD showError:[error description] Interaction:YES];
         }
     });
+}
+
++ (NSString *)getPasswordForEmail: (NSString *)email {
+    return [SAMKeychain passwordForService:OraChatService account:email];
 }
 
 @end
