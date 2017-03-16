@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '9.1'
 use_frameworks!
 inhibit_all_warnings!
 link_with 'OraChat', 'OraChatTest'
